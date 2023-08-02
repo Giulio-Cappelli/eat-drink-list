@@ -75,9 +75,9 @@ const NavbarLink = ({
 };
 
 const selections = [
-  { icon: IconToolsKitchen2, label: "Eat" },
-  { icon: IconBeer, label: "Drink" },
-  { icon: IconPlus, label: "Add New" },
+  { icon: IconToolsKitchen2, label: "Mangiare" },
+  { icon: IconBeer, label: "Bere" },
+  { icon: IconPlus, label: "Aggiungi Nuovo" },
 ];
 
 export const NavbarMinimalColored = (props: {
@@ -103,13 +103,13 @@ export const NavbarMinimalColored = (props: {
         height={"100vh"}
         width={{ base: 80 }}
         p="md"
-        sx={{ backgroundColor: theme.primaryColor }}
+        sx={{ backgroundColor: theme.primaryColor , padding:0}}
       >
         <Center>
           <IconShoppingCart size={32} stroke={2} color={theme.white} />
         </Center>
         <Navbar.Section grow mt={50}>
-          <Stack justify="center" spacing={2}>
+          <Stack justify="center" spacing={4}>
             {links}
           </Stack>
         </Navbar.Section>

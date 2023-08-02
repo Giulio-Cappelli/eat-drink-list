@@ -31,7 +31,9 @@ const DisplayGrid = (props: { title: string; selection: number }) => {
               textAlign: "center",
               padding: theme.spacing.xl,
               borderRadius: theme.radius.md,
-            })}
+              height: "80vh"
+            })
+          }
           >
             <SelectData selection={selection}/>
           </Box>

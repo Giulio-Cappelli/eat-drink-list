@@ -1,5 +1,6 @@
+import { Text } from "@mantine/core";
 import { Places } from "../types/types";
-import TableSort from "./TableSort";
+import TableSort2 from "./TableSort2";
 
 const eat: Places = require("../data/eat.json");
 const drink: Places = require("../data/drink.json");
@@ -9,11 +10,13 @@ const SelectData = (props: { selection: number }) => {
 
   switch (selection) {
     case 0:
-      return <TableSort data={eat}/>;
+      return <TableSort2 data={eat} />;
     case 1:
-      return <TableSort data={drink}/>;
+      return <TableSort2 data={drink} />;
     case 2:
-      return "🍽️";
+      return <Text>1</Text>;
+    default:
+      return <Text>Errore scelta</Text>;
   }
 };
 

@@ -1,1 +1,266 @@
-{}
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Roma",
+      "city": "Aldeno",
+      "address": "Via Roma, 8, 38060 Aldeno TN",
+      "typology": ["Indiano", "Ristorante", "Pizzeria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "Al Passetto",
+      "city": "Cortina D'Ampezzo",
+      "address": "Via Guglielmo Marconi, 8, 32043 Cortina d'Ampezzo BL",
+      "typology": ["Ristorante", "Pizzeria"],
+      "phone": "",
+      "notes": "Cucina tipica"
+    },
+    {
+      "id": 3,
+      "name": "Ciasa Lorenzi",
+      "city": "Cortina D'Ampezzo",
+      "address": "Via Cantore, 1, 32043 Cortina d'Ampezzo BL",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Figo ma €€"
+    },
+    {
+      "id": 4,
+      "name": "Il Dopolavoro",
+      "city": "Gardolo",
+      "address": "Via delle Scuole, 1, 38121 Trento TN",
+      "typology": ["Ristorante", "Pizzeria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 5,
+      "name": "Il Dopolavoro",
+      "city": "Gardolo",
+      "address": "Via delle Scuole, 1, 38121 Trento TN",
+      "typology": ["Ristorante", "Pizzeria"],
+      "phone": "",
+      "notes": ""
+    },
+
+    {
+      "id": 6,
+      "name": "4 Stagioni",
+      "city": "Lasino",
+      "address": "Viale S. Pietro, 7a, 38076 Lasino TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 7,
+      "name": "Vecchia Pergine",
+      "city": "Pergine",
+      "address": "Via Maier Contrada Taliana, 69, 38057 Pergine Valsugana TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 8,
+      "name": "Terra Rossa",
+      "city": "Pergine",
+      "address": "Via Santo Rio, 7, 38057 Susà TN",
+      "typology": ["Pizzeria"],
+      "phone": "0461-530996",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "name": "Sushiko",
+      "city": "Riva del Garda",
+      "address": "Via Padova, 5, 38066 Riva del Garda TN",
+      "typology": ["Sushi"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 10,
+      "name": "Suyoshi",
+      "city": "Rovereto",
+      "address": "Via del Garda, 44/o, 38068 Rovereto TN",
+      "typology": ["Sushi"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 11,
+      "name": "Al Convento",
+      "city": "Sarche",
+      "address": "Via del Garda, 44/o, 38068 Rovereto TN",
+      "typology": ["Indiano", "Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 12,
+      "name": "La Vecchia Cantina",
+      "city": "Terlago",
+      "address": "Via Villa Alta, 14, 38096 Vallelaghi TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 13,
+      "name": "Fujiyama",
+      "city": "Trento",
+      "address": "Corso 3 Novembre 1918, 29, 38122 Trento TN",
+      "typology": ["Sushi"],
+      "phone": "347-2641954",
+      "notes": ""
+    },
+    {
+      "id": 14,
+      "name": "Ca dei Gobj",
+      "city": "Trento",
+      "address": "Via del Simonino, 14, 38122 Trento TN",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Cucina tipica"
+    },
+    {
+      "id": 15,
+      "name": "La Roccia",
+      "city": "Trento",
+      "address": "Localita, Via Pianizza, 4, 38123 Villazzano TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "0461-390226",
+      "notes": "Bella vista"
+    },
+    {
+      "id": 16,
+      "name": "Tentazioni",
+      "city": "Trento",
+      "address": "Via di Stella di Man, 45, 38123 Trento TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 17,
+      "name": "Pedavena",
+      "city": "Trento",
+      "address": "Via Santa Croce, 15, 38122 Trento TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": "Cucina tipica"
+    },
+    {
+      "id": 18,
+      "name": "Sushiko",
+      "city": "Trento",
+      "address": "Corso 3 Novembre 1918, 57, 38122 Trento TN",
+      "typology": ["Sushi"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 19,
+      "name": "La Piadineria",
+      "city": "Trento",
+      "address": "Viale della Costituzione, 5, 38122 Trento TN",
+      "typology": ["Piadine"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 20,
+      "name": "Capatoast",
+      "city": "Trento",
+      "address": "Via Santa Croce, 42, 38122 Trento TN",
+      "typology": ["Panini"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 21,
+      "name": "Ravioleria Zhang",
+      "city": "Trento",
+      "address": "Via Carlo Dordi, 38, 38122 Trento TN",
+      "typology": ["Cinese"],
+      "phone": "",
+      "notes": "Ravioli"
+    },
+    {
+      "id": 22,
+      "name": "Para Todos",
+      "city": "Trento",
+      "address": "Via Torre Verde, 62, 38122 Trento TN",
+      "typology": ["Messicano"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 23,
+      "name": "Patelli",
+      "city": "Trento",
+      "address": "Via Dietro le Mura A, 1/5, 38122 Trento TN",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 24,
+      "name": "Milli Eat&Drink",
+      "city": "Trento",
+      "address": "Via del Suffragio, 2, 38121 Trento TN",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "388-3440317",
+      "notes": ""
+    },
+    {
+      "id": 25,
+      "name": "Dalla Sora Giovanna",
+      "city": "Trento",
+      "address": "Via della Roggia Grande, 8, 38122 Trento TN",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Piatti romani"
+    },
+    {
+      "id": 26,
+      "name": "Al Maso",
+      "city": "Val di Non",
+      "address": "Via Sporeggio, 24, 38010 Maso Milano TN",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Carne €€"
+    },
+    {
+      "id": 27,
+      "name": "Panorama",
+      "city": "Val di Non",
+      "address": "Via Roma, 60, 38012 Taio TN",
+      "typology": ["Indiano", "Pizzeria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 28,
+      "name": "Re Teodorico",
+      "city": "Verona",
+      "address": "Piazzale Castel S. Pietro, 1, 37121 Verona VR",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Bella vista"
+    },
+    {
+      "id": 29,
+      "name": "Helmhotel",
+      "city": "Versciaco",
+      "address": "Bozner Str., 2, 39038 Obervierschach, Autonome Provinz Bozen - Südtirol",
+      "typology": ["Ristorante", "Pizzeria"],
+      "phone": "",
+      "notes": "Cucina Tipica (Prezzi Giusti)"
+    }
+  ]
+}

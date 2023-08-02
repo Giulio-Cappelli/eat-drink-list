@@ -36,7 +36,7 @@ const App = () => {
         </Grid.Col>
         <Grid.Col span={"auto"}>
           <Space h={"md"} />
-          <Container>
+          <Container fluid={true}>
             <PageSelector selector={active} />
           </Container>
         </Grid.Col>

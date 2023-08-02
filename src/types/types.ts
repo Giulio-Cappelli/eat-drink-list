@@ -3,7 +3,7 @@ export interface Place {
   name: string;
   city: string;
   address: string;
-  type: string[];
+  typology: string[];
   phone?: string;
   notes?: string[];
 }

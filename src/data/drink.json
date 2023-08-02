@@ -1,1 +1,94 @@
-{}
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Biba's",
+      "city": "Caldonazzo",
+      "address": "Via Lungo Lago, 50, 38050 Calceranica al lago TN",
+      "typology": ["Aperitvi", "Gelato"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 2,
+      "name": "Lovat",
+      "city": "Cortina D'Ampezzo",
+      "address": "Corso Italia, 65, 32043 Cortina d'Ampezzo BL",
+      "typology": ["Aperitivi", "Pasticcieria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 3,
+      "name": "Gulliver Pub",
+      "city": "Pergine",
+      "address": "Viale Europa, 1, 38057 San Cristoforo TN",
+      "typology": ["Birra"],
+      "phone": "",
+      "notes": "Guinness"
+    },
+    {
+      "id": 4,
+      "name": "Perbacco",
+      "city": "Rovereto",
+      "address": "Via Roma, 18, 38068 Rovereto TN",
+      "typology": ["Birra"],
+      "phone": "",
+      "notes": "Guinness"
+    },
+    {
+      "id": 5,
+      "name": "La Crypta",
+      "city": "Rovereto",
+      "address": "Via Portici, 16, 38068 Rovereto TN",
+      "typology": ["Cocktails", "Vino"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": 6,
+      "name": "Tetley's",
+      "city": "Trento",
+      "address": "Via degli Orti, 1, 38122 Trento TN",
+      "typology": ["Birra"],
+      "phone": "338-3612632",
+      "notes": "Guinness"
+    },
+    {
+      "id": 7,
+      "name": "Randré",
+      "city": "Trento",
+      "address": "Largo Giosuè Carducci, 18, 38122 Trento TN",
+      "typology": ["Aperitivi"],
+      "phone": "",
+      "notes": "Fino alle 23"
+    },
+    {
+      "id": 8,
+      "name": "Milli Eat&Drink",
+      "city": "Trento",
+      "address": "Via del Suffragio, 2, 38121 Trento TN",
+      "typology": ["Aperitivi", "Gelato"],
+      "phone": "388-3440317",
+      "notes": ""
+    },
+    {
+      "id": 9,
+      "name": "Le Palze",
+      "city": "Val di Non",
+      "address": "Località Le Plaze, 38012 Predaia TN",
+      "typology": ["Aperitivi"],
+      "phone": "",
+      "notes": "Sul lago"
+    },
+    {
+      "id": 10,
+      "name": "Rethia",
+      "city": "Vezzano",
+      "address": "Via ai Fossadi, 21, 38096 Vallelaghi TN",
+      "typology": ["Birra"],
+      "phone": "",
+      "notes": "Artigianali"
+    }
+  ]
+}
