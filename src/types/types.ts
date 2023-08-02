@@ -1,8 +1,4 @@
-export type Places = {
-  places: Place[];
-};
-
-export type Place = {
+export interface Place {
   id: number;
   name: string;
   city: string;
@@ -10,4 +6,15 @@ export type Place = {
   type: string[];
   phone?: string;
   notes?: string[];
-};
+}
+
+export interface Places {
+  places: Place[];
+}
+
+export interface ThProps {
+  children: React.ReactNode;
+  reversed: boolean;
+  sorted: boolean;
+  onSort(): void;
+}
