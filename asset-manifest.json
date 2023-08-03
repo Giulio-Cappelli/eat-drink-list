@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/eat-drink-app/static/css/main.058f6aaa.css",
+    "main.js": "/eat-drink-app/static/js/main.d4094962.js",
+    "index.html": "/eat-drink-app/index.html",
+    "main.058f6aaa.css.map": "/eat-drink-app/static/css/main.058f6aaa.css.map",
+    "main.d4094962.js.map": "/eat-drink-app/static/js/main.d4094962.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.058f6aaa.css",
+    "static/js/main.d4094962.js"
+  ]
+}
