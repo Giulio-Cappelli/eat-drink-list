@@ -1,8 +1,8 @@
 import { MapContainer, TileLayer } from "react-leaflet";
-import "leaflet/dist/leaflet.css";
 import { useMantineTheme } from "@mantine/core";
 import MapMarker from "./MapMarker";
 import { Places } from "../types/types";
+import "leaflet/dist/leaflet.css";
 
 const selectMarkers = (selection: number) => {
   const eat: Places = require("../data/eat.json");

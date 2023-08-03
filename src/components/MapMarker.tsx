@@ -1,10 +1,9 @@
 import { Marker, Popup } from "react-leaflet";
-
 import { LatLngExpression, icon } from "leaflet";
 import { Place, Places } from "../types/types";
 
 const ICON = icon({
-  iconUrl: "/marker.png",
+  iconUrl: "../images/marker.png",
   iconSize: [24, 24],
 });
 
