@@ -103,7 +103,11 @@ export const NavbarMinimalColored = (props: {
         height={"100vh"}
         width={{ base: 80 }}
         p="md"
-        sx={{ backgroundColor: theme.primaryColor , padding:0}}
+        sx={{
+          backgroundColor: theme.primaryColor,
+          padding: 0,
+          overflow: "hidden",
+        }}
       >
         <Center>
           <IconShoppingCart size={32} stroke={2} color={theme.white} />

@@ -1,7 +1,7 @@
 import { useState } from "react";
 //import logo from "./logo.svg";
 
-import { Container, Grid, MantineProvider, Space } from "@mantine/core";
+import { Container, Grid, MantineProvider, ScrollArea, Space } from "@mantine/core";
 import { NavbarMinimalColored } from "./NavBar";
 import PageSelector from "./PageSelector";
 
@@ -30,15 +30,17 @@ const App = () => {
         },
       }}
     >
-      <Grid columns={2}>
+      <Grid columns={2} gutter={0}>
         <Grid.Col span={"content"}>
           <NavbarMinimalColored active={active} setActive={setActive} />
         </Grid.Col>
         <Grid.Col span={"auto"}>
           <Space h={"md"} />
-          <Container fluid={true}>
+          <ScrollArea h={"95vh"}>
+          <Container fluid={true} px={"xl"}>
             <PageSelector selector={active} />
           </Container>
+          </ScrollArea>
         </Grid.Col>
       </Grid>
     </MantineProvider>
