@@ -28,7 +28,7 @@ const MapDisplayer = (props: { selection: number }) => {
       center={[46.0649489, 11.1233195]}
       zoom={13}
       style={{ height: "100%", width: "100%", borderRadius: theme.radius.md }}
-      scrollWheelZoom={true}
+      scrollWheelZoom={false}
     >
       <TileLayer
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
