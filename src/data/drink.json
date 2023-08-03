@@ -5,6 +5,8 @@
       "name": "Biba's",
       "city": "Caldonazzo",
       "address": "Via Lungo Lago, 50, 38050 Calceranica al lago TN",
+      "lat": "46.001656",
+      "lng": "11.253052",
       "typology": ["Aperitvi", "Gelato"],
       "phone": "",
       "notes": ""
@@ -14,6 +16,8 @@
       "name": "Lovat",
       "city": "Cortina D'Ampezzo",
       "address": "Corso Italia, 65, 32043 Cortina d'Ampezzo BL",
+      "lat": "46.536902",
+      "lng": "12.137546",
       "typology": ["Aperitivi", "Pasticcieria"],
       "phone": "",
       "notes": ""
@@ -23,6 +27,8 @@
       "name": "Gulliver Pub",
       "city": "Pergine",
       "address": "Viale Europa, 1, 38057 San Cristoforo TN",
+      "lat": "46.039528",
+      "lng": "11.234865",
       "typology": ["Birra"],
       "phone": "",
       "notes": "Guinness"
@@ -32,6 +38,8 @@
       "name": "Perbacco",
       "city": "Rovereto",
       "address": "Via Roma, 18, 38068 Rovereto TN",
+      "lat": "45.889633",
+      "lng": "11.043472",
       "typology": ["Birra"],
       "phone": "",
       "notes": "Guinness"
@@ -41,6 +49,8 @@
       "name": "La Crypta",
       "city": "Rovereto",
       "address": "Via Portici, 16, 38068 Rovereto TN",
+      "lat": "45.887546",
+      "lng": "11.044975",
       "typology": ["Cocktails", "Vino"],
       "phone": "",
       "notes": ""
@@ -50,6 +60,8 @@
       "name": "Tetley's",
       "city": "Trento",
       "address": "Via degli Orti, 1, 38122 Trento TN",
+      "lat": "46.065742",
+      "lng": "11.121244",
       "typology": ["Birra"],
       "phone": "338-3612632",
       "notes": "Guinness"
@@ -58,7 +70,9 @@
       "id": 7,
       "name": "Randré",
       "city": "Trento",
-      "address": "Largo Giosuè Carducci, 18, 38122 Trento TN",
+      "address": "Largo Giosué Carducci, 18, 38122 Trento TN",
+      "lat": "46.068313",
+      "lng": "11.12436",
       "typology": ["Aperitivi"],
       "phone": "",
       "notes": "Fino alle 23"
@@ -68,6 +82,8 @@
       "name": "Milli Eat&Drink",
       "city": "Trento",
       "address": "Via del Suffragio, 2, 38121 Trento TN",
+      "lat": "46.071873",
+      "lng": "11.124915",
       "typology": ["Aperitivi", "Gelato"],
       "phone": "388-3440317",
       "notes": ""
@@ -77,6 +93,8 @@
       "name": "Le Palze",
       "city": "Val di Non",
       "address": "Località Le Plaze, 38012 Predaia TN",
+      "lat": "46.354211",
+      "lng": "11.062135",
       "typology": ["Aperitivi"],
       "phone": "",
       "notes": "Sul lago"
@@ -86,6 +104,8 @@
       "name": "Rethia",
       "city": "Vezzano",
       "address": "Via ai Fossadi, 21, 38096 Vallelaghi TN",
+      "lat": "46.076792",
+      "lng": "10.995491",
       "typology": ["Birra"],
       "phone": "",
       "notes": "Artigianali"

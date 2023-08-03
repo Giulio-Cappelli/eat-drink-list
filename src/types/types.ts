@@ -3,9 +3,11 @@ export interface Place {
   name: string;
   city: string;
   address: string;
+  lat: number;
+  lng: number;
   typology: string[];
-  phone?: string;
-  notes?: string[];
+  phone: string;
+  notes: string[];
 }
 
 export interface Places {

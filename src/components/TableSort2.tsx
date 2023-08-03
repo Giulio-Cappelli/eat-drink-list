@@ -52,7 +52,11 @@ const TableSort2 = (props: { data: Places }) => {
         { accessor: "name", title: "Nome", sortable: true },
         { accessor: "city", title: "Città", sortable: true },
         { accessor: "address", title: "Indirizzo" },
-        { accessor: "typology", title: "Tipologia", render:({typology}) => (getTypology(typology, theme.primaryColor))},
+        {
+          accessor: "typology",
+          title: "Tipologia",
+          render: ({ typology }) => getTypology(typology, theme.primaryColor),
+        },
         { accessor: "phone", title: "Numero Telefono" },
         { accessor: "notes", title: "Note" },
       ]}

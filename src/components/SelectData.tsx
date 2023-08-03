@@ -10,9 +10,9 @@ const SelectData = (props: { selection: number }) => {
 
   switch (selection) {
     case 0:
-      return <TableSort2 data={eat} />;
+      return <TableSort2 key={0} data={eat} />;
     case 1:
-      return <TableSort2 data={drink} />;
+      return <TableSort2 key={1} data={drink} />;
     case 2:
       return <Text>1</Text>;
     default:
