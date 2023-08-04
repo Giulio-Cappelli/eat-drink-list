@@ -99,7 +99,7 @@ const TableSort2 = (props: { data: Places }) => {
                       place.name + " " + place.address
                     }`;
                     const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
-                    window.location.href = url;
+                    window.open(url, '_blank')?.focus();
                   }}
                 >
                   <IconMapPin size={16} />
