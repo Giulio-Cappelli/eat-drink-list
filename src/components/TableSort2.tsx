@@ -7,7 +7,9 @@ import {
   Badge,
   Grid,
   Group,
+  HoverCard,
   Space,
+  Text,
   TextInput,
   useMantineTheme,
 } from "@mantine/core";
@@ -92,18 +94,25 @@ const TableSort2 = (props: { data: Places }) => {
             title: "Azioni",
             render: (place) => (
               <Group spacing={4} position="center" noWrap>
-                <ActionIcon
-                  color={"green"}
-                  onClick={() => {
-                    const url = `https://maps.google.com/?q=${
-                      place.name + " " + place.address
-                    }`;
-                    const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
-                    window.open(url, '_blank')?.focus();
-                  }}
-                >
-                  <IconMapPin size={16} />
-                </ActionIcon>
+                <HoverCard withArrow>
+                  <HoverCard.Target>
+                    <ActionIcon
+                      color={theme.primaryColor}
+                      onClick={() => {
+                        const url = `https://maps.google.com/?q=${
+                          place.name + " " + place.address
+                        }`;
+                        const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
+                        window.open(url, "_blank")?.focus();
+                      }}
+                    >
+                      <IconMapPin size={16} />
+                    </ActionIcon>
+                  </HoverCard.Target>
+                  <HoverCard.Dropdown>
+                    <Text>Apri Google Maps</Text>
+                  </HoverCard.Dropdown>
+                </HoverCard>
               </Group>
             ),
           },
