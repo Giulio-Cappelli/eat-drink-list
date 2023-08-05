@@ -98,27 +98,25 @@ export const NavbarMinimalColored = (props: {
   const theme = useMantineTheme();
 
   return (
-    <>
-      <Navbar
-        height={"100vh"}
-        width={{ base: 80 }}
-        p="md"
-        sx={{
-          backgroundColor: theme.primaryColor,
-          padding: 0,
-          overflow: "hidden",
-        }}
-      >
-        <Center>
-          <IconShoppingCart size={32} stroke={2} color={theme.white} />
-        </Center>
-        <Navbar.Section grow mt={50}>
-          <Stack justify="center" spacing={4}>
-            {links}
-          </Stack>
-        </Navbar.Section>
-      </Navbar>
-    </>
+    <Navbar
+      height={"100vh"}
+      width={{ base: 80 }}
+      p="md"
+      sx={{
+        backgroundColor: theme.primaryColor,
+        padding: 0,
+        overflow: "hidden",
+      }}
+    >
+      <Center>
+        <IconShoppingCart size={32} stroke={2} color={theme.white} />
+      </Center>
+      <Navbar.Section grow mt={50}>
+        <Stack justify="center" spacing={4}>
+          {links}
+        </Stack>
+      </Navbar.Section>
+    </Navbar>
   );
 };
 

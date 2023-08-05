@@ -273,7 +273,7 @@
       "lng": "11.052502",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Carne \u20ac\u20ac"
+      "notes": "Carne €€"
     },
     {
       "id": 26,
@@ -299,14 +299,25 @@
     },
     {
       "id": 28,
-      "name": "Helmhotel",
+      "name": "Pizzeria Helmhotel",
       "city": "Versciaco",
-      "address": "Bozner Str., 2, 39038 Obervierschach, Autonome Provinz Bozen - S\u00fcdtirol",
+      "address": "Bozner Str., 2, 39038 Obervierschach, Autonome Provinz Bozen - Sudtirol",
       "lat": "46.730172",
       "lng": "12.321836",
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
       "notes": "Cucina Tipica (Prezzi Giusti)"
+    },
+    {
+      "id": 29,
+      "name": "Pizzeria Camping Cortina",
+      "city": "Cortina D'Ampezzo",
+      "address": "Via Campo, 2, 32043 Cortina d'Ampezzo BL",
+      "lat": "46.521819",
+      "lng": "12.1345632",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "0436-867575",
+      "notes": ""
     }
   ]
 }
