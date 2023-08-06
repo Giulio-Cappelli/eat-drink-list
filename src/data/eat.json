@@ -315,9 +315,9 @@
       "address": "Via Campo, 2, 32043 Cortina d'Ampezzo BL",
       "lat": "46.521819",
       "lng": "12.1345632",
-      "typology": ["Pizzeria", "Ristorante"],
+      "typology": ["Pizzeria"],
       "phone": "0436-867575",
-      "notes": ""
+      "notes": "Calzone buono"
     }
   ]
 }
