@@ -33,6 +33,12 @@ const getTypology = (types: string[], color: string) => {
   );
 };
 
+const redirect = (place: Place) => {
+  const url = `https://maps.google.com/?q=${place.name + " " + place.address}`;
+  //const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
+  window.open(url, "_blank")?.focus();
+};
+
 const TableSort2 = (props: { data: Places }) => {
   const { data } = props;
 
@@ -98,12 +104,9 @@ const TableSort2 = (props: { data: Places }) => {
                   <HoverCard.Target>
                     <ActionIcon
                       color={theme.primaryColor}
-                      onClick={() => {
-                        const url = `https://maps.google.com/?q=${
-                          place.name + " " + place.address
-                        }`;
-                        const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
-                        window.open(url, "_blank")?.focus();
+                      onClick={(event) => {
+                        event.stopPropagation();
+                        redirect(place);
                       }}
                     >
                       <IconMapPin size={16} />
