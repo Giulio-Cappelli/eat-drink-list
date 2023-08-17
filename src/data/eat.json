@@ -318,6 +318,17 @@
       "typology": ["Pizzeria"],
       "phone": "0436-867575",
       "notes": "Calzone buono"
+    },
+    {
+      "id": 30,
+      "name": "Ni Hao",
+      "city": "Trento",
+      "address": "Via Giuseppe Grazioli, 68, 38122 Trento TN",
+      "lat": "46.0664323",
+      "lng": "11.1301177",
+      "typology": ["Cinese"],
+      "phone": "0461-090887",
+      "notes": ""
     }
   ]
 }
