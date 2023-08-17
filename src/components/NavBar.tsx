@@ -1,18 +1,18 @@
 import {
-  Navbar,
   Center,
+  Navbar,
+  Stack,
   Tooltip,
   UnstyledButton,
   createStyles,
-  Stack,
   rem,
   useMantineTheme,
 } from "@mantine/core";
 import {
-  IconToolsKitchen2,
   IconBeer,
   IconPlus,
   IconShoppingCart,
+  IconToolsKitchen2,
 } from "@tabler/icons-react";
 
 const useStyles = createStyles((theme) => ({

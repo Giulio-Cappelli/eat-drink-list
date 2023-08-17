@@ -1,6 +1,6 @@
 import { Box, Grid, Title } from "@mantine/core";
-import SelectData from "./SelectData";
 import MapDisplayer from "./MapDisplayer";
+import SelectData from "./SelectData";
 
 const DisplayGrid = (props: { title: string; selection: number }) => {
   const { title, selection } = props;
