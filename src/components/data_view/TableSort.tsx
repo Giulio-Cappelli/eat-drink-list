@@ -1,5 +1,5 @@
 import { Badge, Grid, Table, useMantineTheme } from "@mantine/core";
-import { Place, Places } from "../types/types";
+import { Place, Places } from "../../types/types";
 
 const getTypes = (types: string[], color: string) => {
   const badges = types.map((type: string) => {

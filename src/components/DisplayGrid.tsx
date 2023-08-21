@@ -1,42 +1,52 @@
 import { Box, Grid, Text, Title } from "@mantine/core";
-import MapDisplayer from "./MapDisplayer";
-import { Places } from "../types/types";
-import TableSort2 from "./TableSort2";
+import { useState } from "react";
+import { Place, Places } from "../types/types";
 import StyledBox from "./StyledBox";
+import InputData from "./data_add/InputData";
+import MapPicker from "./data_add/MapPicker";
+import MapDisplayer from "./data_view/MapDisplayer";
+import TableSort2 from "./data_view/TableSort2";
 
 // Json Data
 const eat: Places = require("../data/eat.json");
 const drink: Places = require("../data/drink.json");
 
-const selectData = (selection: number) => {
+const selectData = (
+  selection: number,
+  previewData: Place,
+  setPreviewData: any
+) => {
   switch (selection) {
     case 0:
       return (
         <>
-          <StyledBox>
+          <StyledBox height={"80vh"}>
             <TableSort2 key={0} data={eat} />
           </StyledBox>
-          <StyledBox>
-            <MapDisplayer data={eat} />
+          <StyledBox height={"80vh"}>
+            <MapDisplayer key={0} data={eat} />
           </StyledBox>
         </>
       );
     case 1:
       return (
         <>
-          <StyledBox>
+          <StyledBox height={"80vh"}>
             <TableSort2 key={1} data={drink} />
           </StyledBox>
-          <StyledBox>
-            <MapDisplayer data={drink} />
+          <StyledBox height={"80vh"}>
+            <MapDisplayer key={1} data={drink} />
           </StyledBox>
         </>
       );
     case 2:
       return (
         <>
-          <StyledBox>
-            <Text>Aggiungi Luogo</Text>
+          <StyledBox height={"100%"} span={1}>
+            <InputData setPreview={setPreviewData} />
+          </StyledBox>
+          <StyledBox height={"100%"} span={3}>
+            <MapPicker key={2} preview={previewData} />
           </StyledBox>
         </>
       );
@@ -54,9 +64,21 @@ const selectData = (selection: number) => {
 const DisplayGrid = (props: { title: string; selection: number }) => {
   const { title, selection } = props;
 
+  const [previewData, setPreviewData] = useState<Place>({
+    id: -3,
+    name: "",
+    city: "",
+    address: "",
+    lat: 0,
+    lng: 0,
+    typology: [],
+    phone: "",
+    notes: "",
+  });
+
   return (
-    <Grid columns={1}>
-      <Grid.Col span={1}>
+    <Grid columns={4}>
+      <Grid.Col span={4}>
         <Box
           sx={(theme) => ({
             backgroundColor:
@@ -71,7 +93,7 @@ const DisplayGrid = (props: { title: string; selection: number }) => {
           <Title>{title}</Title>
         </Box>
       </Grid.Col>
-      {selectData(selection)}
+      {selectData(selection, previewData, setPreviewData)}
     </Grid>
   );
 };

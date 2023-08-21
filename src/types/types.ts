@@ -7,7 +7,7 @@ export interface Place {
   lng: number;
   typology: string[];
   phone: string;
-  notes: string[];
+  notes: string;
 }
 
 export interface Places {

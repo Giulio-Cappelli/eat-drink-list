@@ -9,9 +9,9 @@ import {
 import { filter, sortBy } from "lodash";
 import { DataTable, DataTableSortStatus } from "mantine-datatable";
 import { useEffect, useState } from "react";
-import { Place, Places } from "../types/types";
-import CallButton from "./buttons/CallButton";
-import MapButton from "./buttons/MapButton";
+import { Place, Places } from "../../types/types";
+import CallButton from "../buttons/CallButton";
+import MapButton from "../buttons/MapButton";
 
 const getTypology = (types: string[], color: string) => {
   const badges = types.map((type: string) => {

@@ -2,11 +2,11 @@ import { useMantineTheme } from "@mantine/core";
 import { LatLngExpression } from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { MapContainer, TileLayer } from "react-leaflet";
-import { Places } from "../types/types";
+import { Places } from "../../types/types";
 import MapMarker from "./MapMarker";
 
 const selectMarkers = (data: Places) => {
-      return <MapMarker data={data} />;
+  return <MapMarker data={data} />;
 };
 
 const MapDisplayer = (props: { data: Places }) => {

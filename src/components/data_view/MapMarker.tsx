@@ -1,6 +1,6 @@
 import { Marker, Popup } from "react-leaflet";
 import { LatLngExpression, icon } from "leaflet";
-import { Place, Places } from "../types/types";
+import { Place, Places } from "../../types/types";
 
 const ICON = icon({
   iconUrl: "https://cdn-icons-png.flaticon.com/128/684/684908.png",

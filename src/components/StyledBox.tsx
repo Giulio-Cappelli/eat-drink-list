@@ -3,11 +3,19 @@ import React, { ReactNode } from "react";
 
 interface Elements {
   children: ReactNode;
+  height?: string | number;
+  width?: string | number;
+  span?: number;
 }
 
-const StyledBox: React.FC<Elements> = ({ children }) => {
+const StyledBox: React.FC<Elements> = ({
+  children,
+  height,
+  width,
+  span = 4,
+}) => {
   return (
-    <Grid.Col span={1}>
+    <Grid.Col span={span}>
       <Box
         sx={(theme) => ({
           backgroundColor:
@@ -17,10 +25,11 @@ const StyledBox: React.FC<Elements> = ({ children }) => {
           textAlign: "center",
           padding: theme.spacing.xl,
           borderRadius: theme.radius.md,
-          height: "80vh",
+          height: height,
+          width: width,
         })}
       >
-        {children}{" "}
+        {children}
       </Box>
     </Grid.Col>
   );

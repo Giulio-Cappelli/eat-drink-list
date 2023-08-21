@@ -306,7 +306,7 @@
       "lng": "12.321836",
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
-      "notes": "Cucina Tipica (Prezzi Giusti)"
+      "notes": "Cucina tipica, Prezzi giusti"
     },
     {
       "id": 29,
@@ -329,6 +329,17 @@
       "typology": ["Cinese"],
       "phone": "0461-090887",
       "notes": ""
+    },
+    {
+      "id": 31,
+      "name": "Restaurant ADLERSTÜBERL",
+      "city": "Lienz",
+      "address": "Andrä Kranz-Gasse 7, 9900 Lienz, Austria",
+      "lat": "46.8295378",
+      "lng": "12.7676245",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Cucina tipica, Turistico"
     }
   ]
 }
