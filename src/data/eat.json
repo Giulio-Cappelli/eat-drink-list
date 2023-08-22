@@ -340,6 +340,17 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Cucina tipica, Turistico"
+    },
+    {
+      "id": 32,
+      "name": "Mair Fast Food",
+      "city": "Trento",
+      "address": "Via della Prepositura, 6, 38122 Trento TN",
+      "lat": "46.0695826",
+      "lng": "11.1182283",
+      "typology": ["Fast-Food", "Kebab"],
+      "phone": "",
+      "notes": ""
     }
   ]
 }

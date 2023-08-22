@@ -7,7 +7,7 @@
       "address": "Via Lungo Lago, 50, 38050 Calceranica al lago TN",
       "lat": "46.001656",
       "lng": "11.253052",
-      "typology": ["Aperitvi", "Gelato"],
+      "typology": ["Aperitivi", "Gelato"],
       "phone": "",
       "notes": ""
     },
@@ -109,6 +109,28 @@
       "typology": ["Birra"],
       "phone": "",
       "notes": "Artigianali"
+    },
+    {
+      "id": 11,
+      "name": "Urban Coffee Lab",
+      "city": "Trento",
+      "address": "Via Camillo Cavour, 35, 38122 Trento TN",
+      "lat": "46.0680305",
+      "lng": "11.1207027",
+      "typology": ["Caffetteria", "Aperitivi"],
+      "phone": "",
+      "notes": "Pelo costoso"
+    },
+    {
+      "id": 12,
+      "name": "Urban Coffee Lab",
+      "city": "Trento",
+      "address": "Viale Adriano Olivetti, 26, 38122 Trento TN",
+      "lat": "46.0615125",
+      "lng": "11.1150921",
+      "typology": ["Caffetteria", "Aperitivi"],
+      "phone": "",
+      "notes": "Pelo costoso"
     }
   ]
 }
