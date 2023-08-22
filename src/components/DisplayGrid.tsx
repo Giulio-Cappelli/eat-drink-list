@@ -2,8 +2,6 @@ import { Box, Grid, Text, Title } from "@mantine/core";
 import { useState } from "react";
 import { Place, Places } from "../types/types";
 import StyledBox from "./StyledBox";
-import InputData from "./data_add/InputData";
-import MapPicker from "./data_add/MapPicker";
 import MapDisplayer from "./data_view/MapDisplayer";
 import TableSort2 from "./data_view/TableSort2";
 
@@ -43,10 +41,7 @@ const selectData = (
       return (
         <>
           <StyledBox height={"100%"} span={1}>
-            <InputData setPreview={setPreviewData} />
-          </StyledBox>
-          <StyledBox height={"100%"} span={3}>
-            <MapPicker key={2} preview={previewData} />
+            <Text>Test</Text>
           </StyledBox>
         </>
       );
