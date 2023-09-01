@@ -352,5 +352,17 @@
       "phone": "",
       "notes": ""
     }
+    ,
+    {
+      "id": 33,
+      "name": "Waikiki Poke Trento",
+      "city": "Trento",
+      "address": "Via Giuseppe Verdi, 19, 38122 Trento TN",
+      "lat": "46.0666112",
+      "lng": "11.1178943",
+      "typology": ["Poké"],
+      "phone": "",
+      "notes": ""
+    }
   ]
 }
