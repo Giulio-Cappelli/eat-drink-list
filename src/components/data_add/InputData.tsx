@@ -12,8 +12,8 @@ import {
 } from "@mantine/core";
 import { IconBeer, IconToolsKitchen2 } from "@tabler/icons-react";
 import { useState } from "react";
-import { checkInput } from "./functions/checkInput";
 import { addPlace, previewPlace } from "./functions/place";
+import { checkInput } from "./functions/checkInput";
 
 const InputData = (props: { setPreview: any }) => {
   const { setPreview } = props;
