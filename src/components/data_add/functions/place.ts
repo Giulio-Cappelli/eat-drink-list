@@ -1,28 +1,31 @@
+import { LatLngExpression } from "leaflet";
+import { PlaceS, Places } from "../../../types/types";
+
+const eat: Places = require("../../../data/eat.json");
+const drink: Places = require("../../../data/drink.json");
+
+const getLastId = (value: string, eat: Places, drink: Places): string => {
+  switch (value) {
+    case "eat":
+      return String(eat.places.length + 1);
+    case "drink":
+      return String(drink.places.length + 1);
+    default:
+      return String(1);
+  }
+};
+
 export const previewPlace = (
   setPreview: any,
-  name: string,
-  city: string,
-  address: string,
   lat: string,
   lng: string
 ): any => {
-  console.log("Preview Place");
-  setPreview({
-    id: -1,
-    name: name,
-    city: city,
-    address: address,
-    lat: Number(lat),
-    lng: Number(lng),
-    typology: [],
-    phone: "",
-    notes: "",
-  });
-
+  setPreview([Number(lat), Number(lng)] as LatLngExpression);
   return;
 };
 
 export const addPlace = (
+  value: string,
   name: string,
   city: string,
   address: string,
@@ -30,7 +33,19 @@ export const addPlace = (
   lng: string,
   typology: string[],
   phone: string,
-  note: string
-): any => {
-  return;
+  notes: string
+): PlaceS => {
+  const id: string = getLastId(value, eat, drink);
+
+  return {
+    id,
+    name,
+    city,
+    address,
+    lat,
+    lng,
+    typology,
+    phone,
+    notes,
+  } as PlaceS;
 };
