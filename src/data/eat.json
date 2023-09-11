@@ -351,8 +351,7 @@
       "typology": ["Fast-Food", "Kebab"],
       "phone": "",
       "notes": ""
-    }
-    ,
+    },
     {
       "id": 33,
       "name": "Waikiki Poke Trento",
@@ -363,6 +362,17 @@
       "typology": ["Poké"],
       "phone": "",
       "notes": ""
+    },
+    {
+      "id": 34,
+      "name": "da Renzo",
+      "city": "Cappella Maggiore",
+      "address": "Piazza Vittorio Veneto, 6, 31012 Cappella Maggiore TV",
+      "lat": "45.9699709",
+      "lng": "12.3614281",
+      "typology": ["Ristorante", "Pesce"],
+      "phone": "",
+      "notes": "Pesce molto buono"
     }
   ]
 }

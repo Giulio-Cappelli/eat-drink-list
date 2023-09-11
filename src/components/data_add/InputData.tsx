@@ -38,6 +38,7 @@ const InputData = (props: { setPreview: any }) => {
     "Fast-Food",
     "Kebab",
     "Poké",
+    "Pesce",
   ]);
   const [typologyD, setTypologyD] = useState([
     "Aperitivi",
