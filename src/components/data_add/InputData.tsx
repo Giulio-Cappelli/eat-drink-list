@@ -26,29 +26,12 @@ const InputData = (props: { setPreview: any }) => {
   const [address, setAddress] = useState<string>("");
   const [lat, setLat] = useState<string>("0.0");
   const [lng, setLng] = useState<string>("0.0");
-  const [typologyE, setTypologyE] = useState<string[]>([
-    "Pizzeria",
-    "Ristorante",
-    "Cinese",
-    "Sushi",
-    "Indiano",
-    "Panini",
-    "Piadine",
-    "Messicano",
-    "Fast-Food",
-    "Kebab",
-    "Poké",
-    "Pesce",
-  ]);
-  const [typologyD, setTypologyD] = useState([
-    "Aperitivi",
-    "Birra",
-    "Vino",
-    "Cocktails",
-    "Gelato",
-    "Pasticcieria",
-    "Caffetteria",
-  ]);
+  const [typologyE, setTypologyE] = useState<string[]>(
+    require("../../data/typologyE.json")
+  );
+  const [typologyD, setTypologyD] = useState<string[]>(
+    require("../../data/typologyD.json")
+  );
   const [phone, setPhone] = useState<string>("");
   const [note, setNote] = useState<string>("");
 
