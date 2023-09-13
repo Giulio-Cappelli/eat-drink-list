@@ -10,8 +10,15 @@ const DisplayNewData = (props: {
   const { data, opened, open, close } = props;
 
   return (
-    <Modal opened={opened} onClose={close} title={"Nuovo Luogo"} size={"md"}>
+    <Modal
+      opened={opened}
+      onClose={close}
+      title={"Nuovo Luogo"}
+      size={"md"}
+      radius={"md"}
+    >
       <JsonInput
+        radius={"md"}
         value={JSON.stringify(data, null, 2)}
         readOnly
         size={"sm"}

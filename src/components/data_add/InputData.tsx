@@ -108,6 +108,7 @@ const InputData = (props: {
       />
       <NumberInput
         label={"Latitudine"}
+        radius={"md"}
         precision={7}
         min={-90.0}
         step={0.0000001}
@@ -120,6 +121,7 @@ const InputData = (props: {
       />
       <NumberInput
         label={"Longitudine"}
+        radius={"md"}
         precision={7}
         min={-180.0}
         step={0.0000001}
@@ -137,6 +139,7 @@ const InputData = (props: {
       <MultiSelect
         placeholder={"Seleziona il tipo di locale"}
         label={"Tipo di locale"}
+        radius={"md"}
         data={value === "eat" ? typologyE : typologyD}
         value={typology}
         searchable
@@ -166,6 +169,7 @@ const InputData = (props: {
       <Textarea
         placeholder={"Aggiungi Nota"}
         label={"Note"}
+        radius={"md"}
         autosize
         minRows={2}
         maxRows={4}
