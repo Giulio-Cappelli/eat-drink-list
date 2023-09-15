@@ -373,6 +373,17 @@
       "typology": ["Ristorante", "Pesce"],
       "phone": "",
       "notes": "Pesce molto buono"
+    },
+    {
+      "id": "35",
+      "name": "Mr. Gyros",
+      "city": "Innsbruck",
+      "address": "Innrain 9, 6020 Innsbruck",
+      "lat": "47.2667339",
+      "lng": "11.3908857",
+      "typology": ["Greco", "Piadine"],
+      "phone": "",
+      "notes": ""
     }
   ]
 }
