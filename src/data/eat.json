@@ -384,6 +384,28 @@
       "typology": ["Greco", "Piadine"],
       "phone": "",
       "notes": ""
+    },
+    {
+      "id": "36",
+      "name": "Hard Rock Cafe",
+      "city": "Innsbruck",
+      "address": "Maria-Theresien-Straße 16, 6020 Innsbruck, Austria",
+      "lat": "47.2658764",
+      "lng": "11.3937837",
+      "typology": ["Ristorante", "Americano"],
+      "phone": "",
+      "notes": "Figo ma €€"
+    },
+    {
+      "id": "37",
+      "name": "Old Wild West",
+      "city": "Trento",
+      "address": "Piazza delle Donne Lavoratrici, 13, 38121 Trento TN",
+      "lat": "46.0601322",
+      "lng": "11.1149422",
+      "typology": ["Ristorante", "Americano"],
+      "phone": "0461-915572",
+      "notes": ""
     }
   ]
 }
