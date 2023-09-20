@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/eat-drink-list/static/css/main.058f6aaa.css",
-    "main.js": "/eat-drink-list/static/js/main.d43d263e.js",
+    "main.js": "/eat-drink-list/static/js/main.88d9f5fd.js",
     "index.html": "/eat-drink-list/index.html",
     "main.058f6aaa.css.map": "/eat-drink-list/static/css/main.058f6aaa.css.map",
-    "main.d43d263e.js.map": "/eat-drink-list/static/js/main.d43d263e.js.map"
+    "main.88d9f5fd.js.map": "/eat-drink-list/static/js/main.88d9f5fd.js.map"
   },
   "entrypoints": [
     "static/css/main.058f6aaa.css",
-    "static/js/main.d43d263e.js"
+    "static/js/main.88d9f5fd.js"
   ]
 }
