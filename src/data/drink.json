@@ -117,7 +117,7 @@
       "address": "Via Camillo Cavour, 35, 38122 Trento TN",
       "lat": "46.0680305",
       "lng": "11.1207027",
-      "typology": ["Caffetteria", "Aperitivi"],
+      "typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
       "phone": "",
       "notes": "Pelo costoso"
     },
@@ -128,7 +128,7 @@
       "address": "Viale Adriano Olivetti, 26, 38122 Trento TN",
       "lat": "46.0615125",
       "lng": "11.1150921",
-      "typology": ["Caffetteria", "Aperitivi"],
+      "typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
       "phone": "",
       "notes": "Pelo costoso"
     },
