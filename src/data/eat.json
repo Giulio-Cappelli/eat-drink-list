@@ -240,7 +240,7 @@
       "lng": "11.12316",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": ""
+      "notes": "€€"
     },
     {
       "id": 23,
@@ -262,7 +262,7 @@
       "lng": "11.124386",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Piatti romani"
+      "notes": "Piatti romani, €€"
     },
     {
       "id": 25,
@@ -405,6 +405,17 @@
       "lng": "11.1149422",
       "typology": ["Ristorante", "Americano"],
       "phone": "0461-915572",
+      "notes": ""
+    },
+    {
+      "id": "38",
+      "name": "Mexico City",
+      "city": "Villabassa",
+      "address": "Via Rienza, 31, 39039 Villabassa BZ",
+      "lat": "46.7390540",
+      "lng": "12.1683820",
+      "typology": ["Ristorante", "Messicano", "Pizzeria"],
+      "phone": "",
       "notes": ""
     }
   ]
