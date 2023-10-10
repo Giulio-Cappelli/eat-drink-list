@@ -1,11 +1,14 @@
 import {
   Badge,
+  Button,
   Grid,
   Group,
   Space,
-  TextInput,
-  useMantineTheme,
+  Stack,
+  Text,
+  TextInput, useMantineTheme
 } from "@mantine/core";
+import { closeAllModals, openModal } from "@mantine/modals";
 import { filter, sortBy } from "lodash";
 import { DataTable, DataTableSortStatus } from "mantine-datatable";
 import { useEffect, useState } from "react";
@@ -111,6 +114,17 @@ const TableSort2 = (props: { data: Places }) => {
         records={records}
         sortStatus={sortStatus}
         onSortStatusChange={setSortStatus}
+        onRowClick={(place) => {
+          openModal({
+            title: place.name,
+            children: (
+              <Stack>
+                <Text>{place.address}</Text>
+                <Button onClick={() => closeAllModals()}>Close</Button>
+              </Stack>
+            ),
+          });
+        }}
       />
     </>
   );

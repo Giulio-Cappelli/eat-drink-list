@@ -29,7 +29,7 @@ const selectData = (
     case 0:
       return (
         <>
-          <StyledBox height={"80vh"}>
+          <StyledBox>
             <TableSort2 key={0} data={eat} />
           </StyledBox>
           <StyledBox height={"80vh"}>

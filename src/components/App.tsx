@@ -1,9 +1,16 @@
 import { useState } from "react";
 //import logo from "./logo.svg";
 
-import { Container, Grid, MantineProvider, ScrollArea, Space } from "@mantine/core";
+import {
+  Container,
+  Grid,
+  MantineProvider,
+  ScrollArea,
+  Space,
+} from "@mantine/core";
 import { NavbarMinimalColored } from "./NavBar";
 import PageSelector from "./PageSelector";
+import { ModalsProvider } from "@mantine/modals";
 
 const App = () => {
   const [active, setActive] = useState(0);
@@ -30,19 +37,21 @@ const App = () => {
         },
       }}
     >
-      <Grid columns={2} gutter={0}>
-        <Grid.Col span={"content"}>
-          <NavbarMinimalColored active={active} setActive={setActive} />
-        </Grid.Col>
-        <Grid.Col span={"auto"}>
-          <Space h={"md"} />
-          <ScrollArea h={"95vh"}>
-          <Container fluid={true} px={"xl"}>
-            <PageSelector selector={active} />
-          </Container>
-          </ScrollArea>
-        </Grid.Col>
-      </Grid>
+      <ModalsProvider>
+        <Grid columns={2} gutter={0}>
+          <Grid.Col span={"content"}>
+            <NavbarMinimalColored active={active} setActive={setActive} />
+          </Grid.Col>
+          <Grid.Col span={"auto"}>
+            <Space h={"md"} />
+            <ScrollArea h={"95vh"}>
+              <Container fluid={true} px={"xl"}>
+                <PageSelector selector={active} />
+              </Container>
+            </ScrollArea>
+          </Grid.Col>
+        </Grid>
+      </ModalsProvider>
     </MantineProvider>
   );
 };
