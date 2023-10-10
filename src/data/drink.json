@@ -7,7 +7,7 @@
       "address": "Via Lungo Lago, 50, 38050 Calceranica al lago TN",
       "lat": "46.001656",
       "lng": "11.253052",
-      "typology": ["Aperitvi", "Gelato"],
+      "typology": ["Aperitivi", "Gelato"],
       "phone": "",
       "notes": ""
     },
@@ -109,6 +109,72 @@
       "typology": ["Birra"],
       "phone": "",
       "notes": "Artigianali"
+    },
+    {
+      "id": 11,
+      "name": "Urban Coffee Lab",
+      "city": "Trento",
+      "address": "Via Camillo Cavour, 35, 38122 Trento TN",
+      "lat": "46.0680305",
+      "lng": "11.1207027",
+      "typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
+      "phone": "",
+      "notes": "Pelo costoso"
+    },
+    {
+      "id": 12,
+      "name": "Urban Coffee Lab",
+      "city": "Trento",
+      "address": "Viale Adriano Olivetti, 26, 38122 Trento TN",
+      "lat": "46.0615125",
+      "lng": "11.1150921",
+      "typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
+      "phone": "",
+      "notes": "Pelo costoso"
+    },
+    {
+      "id": "13",
+      "name": "Starbucks",
+      "city": "Verona",
+      "address": "Galleria Pellicciai, 2, 37121 Verona VR, Italia",
+      "lat": "45.4420157",
+      "lng": "10.9953905",
+      "typology": ["Caffetteria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": "14",
+      "name": "Starbucks",
+      "city": "Innsbruck",
+      "address": "Herzog-Friedrich-Straße 24, 6020 Innsbruck",
+      "lat": "47.2678121",
+      "lng": "11.3932701",
+      "typology": ["Caffetteria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": "15",
+      "name": "Dunkin' Donuts",
+      "city": "Innsbruck",
+      "address": "Maria-Theresien-Straße 38, 6020 Innsbruck, Austria",
+      "lat": "47.2645069",
+      "lng": "11.3946436",
+      "typology": ["Caffetteria"],
+      "phone": "",
+      "notes": ""
+    },
+    {
+      "id": "16",
+      "name": "Mr. Box Tea",
+      "city": "Innsbruck",
+      "address": "Innrain 19, 6020 Innsbruck, Austria",
+      "lat": "47.2662878",
+      "lng": "11.3902165",
+      "typology": ["Bubble Tea"],
+      "phone": "",
+      "notes": ""
     }
   ]
 }

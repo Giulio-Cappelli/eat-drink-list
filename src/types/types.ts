@@ -10,6 +10,17 @@ export interface Place {
   notes: string;
 }
 
+export interface PlaceS {
+  id: string;
+  name: string;
+  city: string;
+  address: string;
+  lat: string;
+  lng: string;
+  typology: string[];
+  phone: string;
+  notes: string;
+}
 export interface Places {
   places: Place[];
 }

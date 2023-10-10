@@ -1,19 +1,17 @@
-import { DataTable, DataTableSortStatus } from "mantine-datatable";
-import { Places, Place } from "../types/types";
-import { useEffect, useState } from "react";
-import { filter, sortBy } from "lodash";
 import {
-  ActionIcon,
   Badge,
   Grid,
   Group,
-  HoverCard,
   Space,
-  Text,
   TextInput,
   useMantineTheme,
 } from "@mantine/core";
-import { IconMapPin } from "@tabler/icons-react";
+import { filter, sortBy } from "lodash";
+import { DataTable, DataTableSortStatus } from "mantine-datatable";
+import { useEffect, useState } from "react";
+import { Place, Places } from "../../types/types";
+import CallButton from "../buttons/CallButton";
+import MapButton from "../buttons/MapButton";
 
 const getTypology = (types: string[], color: string) => {
   const badges = types.map((type: string) => {
@@ -31,12 +29,6 @@ const getTypology = (types: string[], color: string) => {
       {badges}
     </Grid>
   );
-};
-
-const redirect = (place: Place) => {
-  const url = `https://maps.google.com/?q=${place.name + " " + place.address}`;
-  //const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
-  window.open(url, "_blank")?.focus();
 };
 
 const TableSort2 = (props: { data: Places }) => {
@@ -79,7 +71,7 @@ const TableSort2 = (props: { data: Places }) => {
     <>
       <TextInput
         radius={"md"}
-        placeholder="Search..."
+        placeholder="Cerca (Nome / Città / Tipologia)"
         value={searchQuery}
         onChange={(event) => setSearchQuery(event.currentTarget.value)}
       />
@@ -100,22 +92,8 @@ const TableSort2 = (props: { data: Places }) => {
             title: "Azioni",
             render: (place) => (
               <Group spacing={4} position="center" noWrap>
-                <HoverCard withArrow>
-                  <HoverCard.Target>
-                    <ActionIcon
-                      color={theme.primaryColor}
-                      onClick={(event) => {
-                        event.stopPropagation();
-                        redirect(place);
-                      }}
-                    >
-                      <IconMapPin size={16} />
-                    </ActionIcon>
-                  </HoverCard.Target>
-                  <HoverCard.Dropdown>
-                    <Text>Apri Google Maps</Text>
-                  </HoverCard.Dropdown>
-                </HoverCard>
+                <MapButton place={place} />
+                <CallButton place={place} />
               </Group>
             ),
           },

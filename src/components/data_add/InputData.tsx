@@ -15,8 +15,13 @@ import { useState } from "react";
 import { addPlace, previewPlace } from "./functions/place";
 import { checkInput } from "./functions/checkInput";
 
-const InputData = (props: { setPreview: any }) => {
-  const { setPreview } = props;
+const InputData = (props: {
+  setPreview: any;
+  setUpdated: any;
+  setNewData: any;
+  open: any;
+}) => {
+  const { setPreview, setUpdated, setNewData, open } = props;
 
   const theme = useMantineTheme();
 
@@ -26,44 +31,25 @@ const InputData = (props: { setPreview: any }) => {
   const [address, setAddress] = useState<string>("");
   const [lat, setLat] = useState<string>("0.0");
   const [lng, setLng] = useState<string>("0.0");
-  const [typologyE, setTypologyE] = useState<string[]>([
-    "Pizzeria",
-    "Ristorante",
-    "Cinese",
-    "Sushi",
-    "Indiano",
-    "Panini",
-    "Piadine",
-    "Messicano",
-    "Fast-Food",
-    "Kebab",
-  ]);
-  const [typologyD, setTypologyD] = useState([
-    "Aperitivi",
-    "Birra",
-    "Vino",
-    "Cocktails",
-    "Gelato",
-    "Pasticcieria",
-    "Caffetteria",
-  ]);
+  const [typologyE, setTypologyE] = useState<string[]>(
+    require("../../data/typologyE.json")
+  );
+  const [typologyD, setTypologyD] = useState<string[]>(
+    require("../../data/typologyD.json")
+  );
+  const [typology, setTypology] = useState<string[]>([""]);
   const [phone, setPhone] = useState<string>("");
   const [note, setNote] = useState<string>("");
 
   const handlePreviewClick = () => {
-    previewPlace(setPreview, name, city, address, lat, lng);
+    previewPlace(setPreview, lat, lng);
+    setUpdated(true);
   };
   const handleAddClick = () => {
-    addPlace(
-      name,
-      city,
-      address,
-      lat,
-      lng,
-      value === "eat" ? typologyE : typologyD,
-      phone,
-      note
+    setNewData(
+      addPlace(value, name, city, address, lat, lng, typology, phone, note)
     );
+    open();
   };
 
   return (
@@ -122,6 +108,7 @@ const InputData = (props: { setPreview: any }) => {
       />
       <NumberInput
         label={"Latitudine"}
+        radius={"md"}
         precision={7}
         min={-90.0}
         step={0.0000001}
@@ -134,6 +121,7 @@ const InputData = (props: { setPreview: any }) => {
       />
       <NumberInput
         label={"Longitudine"}
+        radius={"md"}
         precision={7}
         min={-180.0}
         step={0.0000001}
@@ -151,7 +139,9 @@ const InputData = (props: { setPreview: any }) => {
       <MultiSelect
         placeholder={"Seleziona il tipo di locale"}
         label={"Tipo di locale"}
+        radius={"md"}
         data={value === "eat" ? typologyE : typologyD}
+        value={typology}
         searchable
         creatable
         getCreateLabel={(query: string) => `+ Aggiungi ${query}`}
@@ -165,6 +155,7 @@ const InputData = (props: { setPreview: any }) => {
           }
           return item;
         }}
+        onChange={(values) => setTypology(values)}
         clearable
         required
       />
@@ -178,6 +169,7 @@ const InputData = (props: { setPreview: any }) => {
       <Textarea
         placeholder={"Aggiungi Nota"}
         label={"Note"}
+        radius={"md"}
         autosize
         minRows={2}
         maxRows={4}

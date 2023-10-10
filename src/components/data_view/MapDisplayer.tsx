@@ -1,26 +1,16 @@
-import { MapContainer, TileLayer } from "react-leaflet";
 import { useMantineTheme } from "@mantine/core";
-import MapMarker from "./MapMarker";
-import { Places } from "../types/types";
-import "leaflet/dist/leaflet.css";
 import { LatLngExpression } from "leaflet";
+import "leaflet/dist/leaflet.css";
+import { MapContainer, TileLayer } from "react-leaflet";
+import { Places } from "../../types/types";
+import MapMarker from "./MapMarker";
 
-const selectMarkers = (selection: number) => {
-  const eat: Places = require("../data/eat.json");
-  const drink: Places = require("../data/drink.json");
-
-  switch (selection) {
-    case 0:
-      return <MapMarker data={eat} />;
-    case 1:
-      return <MapMarker data={drink} />;
-    default:
-      return <></>;
-  }
+const selectMarkers = (data: Places) => {
+  return <MapMarker data={data} />;
 };
 
-const MapDisplayer = (props: { selection: number }) => {
-  const { selection } = props;
+const MapDisplayer = (props: { data: Places }) => {
+  const { data } = props;
 
   const center = [46.0649489, 11.1233195] as LatLngExpression; // Trento
 
@@ -37,7 +27,7 @@ const MapDisplayer = (props: { selection: number }) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {selectMarkers(selection)}
+      {selectMarkers(data)}
     </MapContainer>
   );
 };
