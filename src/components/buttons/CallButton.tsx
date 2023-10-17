@@ -1,15 +1,7 @@
 import { ActionIcon, HoverCard, Text, useMantineTheme } from "@mantine/core";
 import { IconPhone } from "@tabler/icons-react";
 import { Place } from "../../types/types";
-
-const call = (place: Place) => {
-  let phoneNumber = place.phone;
-  const phoneNumberSplit = phoneNumber.split("-");
-
-  phoneNumber = "tel:" + phoneNumberSplit[0] + phoneNumberSplit[1];
-
-  window.open(phoneNumber, "_blank")?.focus();
-};
+import { call } from "./functions/call";
 
 const CallButton = (props: { place: Place }) => {
   const { place } = props;

@@ -1,12 +1,7 @@
 import { ActionIcon, HoverCard, Text, useMantineTheme } from "@mantine/core";
 import { IconMapPin } from "@tabler/icons-react";
 import { Place } from "../../types/types";
-
-const redirect = (place: Place) => {
-  const url = `https://maps.google.com/?q=${place.name + ", " + place.address}`;
-  //const geoUrl = `geo:${place.lat},${place.lng}?z=13`;
-  window.open(url, "_blank")?.focus();
-};
+import { redirect } from "./functions/redirect";
 
 const MapButton = (props: { place: Place }) => {
   const { place } = props;

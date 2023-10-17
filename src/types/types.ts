@@ -8,6 +8,8 @@ export interface Place {
   typology: string[];
   phone: string;
   notes: string;
+  menu?: string;
+  price?: string;
 }
 
 export interface PlaceS {
