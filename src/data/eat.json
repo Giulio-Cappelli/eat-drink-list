@@ -2,7 +2,7 @@
   "places": [
     {
       "id": 1,
-      "name": "Roma",
+      "name": "Ristorante Pizzeria Roma",
       "city": "Aldeno",
       "address": "Via Roma, 8, 38060 Aldeno TN",
       "lat": "45.977669",
@@ -31,7 +31,8 @@
       "lng": "12.136343",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Figo ma €€"
+      "notes": "Figo",
+      "price": "€€€"
     },
     {
       "id": 4,
@@ -86,7 +87,8 @@
       "lng": "10.854207",
       "typology": ["Sushi"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€€€"
     },
     {
       "id": 9,
@@ -97,7 +99,8 @@
       "lng": "11.030726",
       "typology": ["Sushi"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€€€"
     },
     {
       "id": 10,
@@ -130,7 +133,8 @@
       "lng": "11.1246535",
       "typology": ["Sushi"],
       "phone": "347-2641954",
-      "notes": ""
+      "notes": "",
+      "price": "€€€€"
     },
     {
       "id": 13,
@@ -185,7 +189,8 @@
       "lng": "11.125719",
       "typology": ["Sushi"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€€€"
     },
     {
       "id": 18,
@@ -218,7 +223,8 @@
       "lng": "11.123128",
       "typology": ["Cinese"],
       "phone": "",
-      "notes": "Ravioli"
+      "notes": "Ravioli",
+      "price": "€"
     },
     {
       "id": 21,
@@ -240,7 +246,8 @@
       "lng": "11.12316",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "€€"
+      "notes": "",
+      "price": "€€€"
     },
     {
       "id": 23,
@@ -262,7 +269,8 @@
       "lng": "11.124386",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Piatti romani, €€"
+      "notes": "Piatti romani",
+      "price": "€€€"
     },
     {
       "id": 25,
@@ -273,7 +281,8 @@
       "lng": "11.052502",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Carne €€"
+      "notes": "Carne",
+      "price": "€€€"
     },
     {
       "id": 26,
@@ -394,7 +403,8 @@
       "lng": "11.3937837",
       "typology": ["Ristorante", "Americano"],
       "phone": "",
-      "notes": "Figo ma €€"
+      "notes": "Figo",
+      "price": "€€€"
     },
     {
       "id": "37",

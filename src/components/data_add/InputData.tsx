@@ -5,6 +5,7 @@ import {
   MultiSelect,
   NumberInput,
   SegmentedControl,
+  Select,
   Stack,
   TextInput,
   Textarea,
@@ -40,6 +41,9 @@ const InputData = (props: {
   const [typology, setTypology] = useState<string[]>([""]);
   const [phone, setPhone] = useState<string>("");
   const [note, setNote] = useState<string>("");
+  const [price, setPrice] = useState<string>("");
+
+  const priceList = require("../../data/prices.json");
 
   const handlePreviewClick = () => {
     previewPlace(setPreview, lat, lng);
@@ -47,7 +51,18 @@ const InputData = (props: {
   };
   const handleAddClick = () => {
     setNewData(
-      addPlace(value, name, city, address, lat, lng, typology, phone, note)
+      addPlace(
+        value,
+        name,
+        city,
+        address,
+        lat,
+        lng,
+        typology,
+        phone,
+        note,
+        price
+      )
     );
     open();
   };
@@ -165,6 +180,14 @@ const InputData = (props: {
         radius={"md"}
         value={phone}
         onChange={(event) => setPhone(event.currentTarget.value)}
+      />
+      <Select
+        placeholder={"Indica un prezzo"}
+        label={"Prezzo"}
+        radius={"md"}
+        value={price}
+        data={priceList}
+        onChange={(newPrice: string) => setPrice(newPrice)}
       />
       <Textarea
         placeholder={"Aggiungi Nota"}

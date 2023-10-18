@@ -1,6 +1,5 @@
 import {
   Badge,
-  Button,
   Grid,
   Group,
   MultiSelect,
@@ -10,21 +9,21 @@ import {
   Textarea,
   useMantineTheme,
 } from "@mantine/core";
-import { closeAllModals, openModal } from "@mantine/modals";
+import { openModal } from "@mantine/modals";
 import { filter, sortBy } from "lodash";
 import { DataTable, DataTableSortStatus } from "mantine-datatable";
 import { useEffect, useState } from "react";
 import { Place, Places } from "../../types/types";
 import CallButton from "../buttons/CallButton";
 import CallButtonAlt from "../buttons/CallButtonAlt";
-import MapButtonAlt from "../buttons/MapButtonAlt";
 import MapButton from "../buttons/MapButton";
+import MapButtonAlt from "../buttons/MapButtonAlt";
 
 const getTypology = (types: string[], color: string) => {
   const badges = types.map((type: string) => {
     return (
       <Grid.Col span={1} key={type}>
-        <Badge color={color} variant={"filled"}>
+        <Badge color={color} variant={"filled"} key={type}>
           {type}
         </Badge>
       </Grid.Col>
@@ -36,6 +35,41 @@ const getTypology = (types: string[], color: string) => {
       {badges}
     </Grid>
   );
+};
+
+const getPrices = (price: string) => {
+  switch (price) {
+    case "€":
+      return (
+        <Badge color={"blue"} variant={"filled"} key={"€"}>
+          {"< 15€"}
+        </Badge>
+      );
+    case "€€":
+      return (
+        <Badge color={"lime"} variant={"filled"} key={"€€"}>
+          {"15€ - 20€"}
+        </Badge>
+      );
+    case "€€€":
+      return (
+        <Badge color={"yellow"} variant={"filled"} key={"€€€"}>
+          {"20€ - 30€"}
+        </Badge>
+      );
+    case "€€€€":
+      return (
+        <Badge color={"orange"} variant={"filled"} key={"€€€€"}>
+          {"30€ - 40€"}
+        </Badge>
+      );
+    case "€€€€€":
+      return (
+        <Badge color={"red"} variant={"filled"} key={"€€€€€"}>
+          {"> 40€"}
+        </Badge>
+      );
+  }
 };
 
 const handleRowClick = (data: Place, theme: any) => {
@@ -64,7 +98,6 @@ const handleRowClick = (data: Place, theme: any) => {
           readOnly
           radius={"md"}
         />
-        <TextInput label={"Menù"} value={data.menu} readOnly radius={"md"} />
         <TextInput label={"Prezzo"} value={data.price} readOnly radius={"md"} />
         <Textarea label={"Note"} value={data.notes} readOnly radius={"md"} />
         <Grid columns={6}>
@@ -102,7 +135,8 @@ const TableSort2 = (props: { data: Places }) => {
         place.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
         place.typology.some((typology) =>
           typology.toLowerCase().includes(searchQuery.toLowerCase())
-        )
+        ) ||
+        place.price.toLowerCase().includes(searchQuery.toLowerCase())
     );
 
     filteredRecords = sortBy(
@@ -156,6 +190,12 @@ const TableSort2 = (props: { data: Places }) => {
           },
           //{ accessor: "address", title: "Indirizzo" },
           { accessor: "phone", title: "Numero Telefono" },
+          {
+            accessor: "price",
+            title: "Prezzo",
+            sortable: true,
+            render: ({ price }) => getPrices(price),
+          },
           { accessor: "notes", title: "Note" },
         ]}
         records={records}
