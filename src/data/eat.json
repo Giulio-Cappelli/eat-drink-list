@@ -426,7 +426,8 @@
       "lng": "12.1683820",
       "typology": ["Ristorante", "Messicano", "Pizzeria"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     }
   ]
 }

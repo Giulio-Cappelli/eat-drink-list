@@ -135,8 +135,7 @@ const TableSort2 = (props: { data: Places }) => {
         place.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
         place.typology.some((typology) =>
           typology.toLowerCase().includes(searchQuery.toLowerCase())
-        ) ||
-        place.price.toLowerCase().includes(searchQuery.toLowerCase())
+        )
     );
 
     filteredRecords = sortBy(
