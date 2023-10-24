@@ -20,7 +20,8 @@
       "lng": "12.137056",
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
-      "notes": "Cucina tipica"
+      "notes": "Cucina tipica",
+      "price": "€€"
     },
     {
       "id": 3,
@@ -32,7 +33,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Figo",
-      "price": "€€€"
+      "price": "€€€€"
     },
     {
       "id": 4,
@@ -88,7 +89,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€€"
+      "price": "€€€"
     },
     {
       "id": 9,
@@ -100,7 +101,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€€"
+      "price": "€€€"
     },
     {
       "id": 10,
@@ -134,7 +135,7 @@
       "typology": ["Sushi"],
       "phone": "347-2641954",
       "notes": "",
-      "price": "€€€€"
+      "price": "€€€"
     },
     {
       "id": 13,
@@ -190,7 +191,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€€"
+      "price": "€€€"
     },
     {
       "id": 18,
@@ -235,7 +236,8 @@
       "lng": "11.124643",
       "typology": ["Messicano"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": 22,
@@ -258,7 +260,8 @@
       "lng": "11.124915",
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "388-3440317",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": 24,
@@ -282,7 +285,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Carne",
-      "price": "€€€"
+      "price": "€€€€"
     },
     {
       "id": 26,
@@ -304,7 +307,8 @@
       "lng": "11.002226",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Bella vista"
+      "notes": "Bella vista",
+      "price": "€€€"
     },
     {
       "id": 28,
@@ -315,7 +319,8 @@
       "lng": "12.321836",
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
-      "notes": "Cucina tipica, Prezzi giusti"
+      "notes": "Cucina tipica",
+      "price": "€€"
     },
     {
       "id": 29,
@@ -337,7 +342,8 @@
       "lng": "11.1301177",
       "typology": ["Cinese"],
       "phone": "0461-090887",
-      "notes": ""
+      "notes": "",
+      "price": "€"
     },
     {
       "id": 31,
@@ -348,7 +354,8 @@
       "lng": "12.7676245",
       "typology": ["Ristorante"],
       "phone": "",
-      "notes": "Cucina tipica, Turistico"
+      "notes": "Cucina tipica, Turistico",
+      "price": "€€"
     },
     {
       "id": 32,
@@ -359,7 +366,8 @@
       "lng": "11.1182283",
       "typology": ["Fast-Food", "Kebab"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€"
     },
     {
       "id": 33,
@@ -370,7 +378,8 @@
       "lng": "11.1178943",
       "typology": ["Poké"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": 34,
@@ -415,7 +424,8 @@
       "lng": "11.1149422",
       "typology": ["Ristorante", "Americano"],
       "phone": "0461-915572",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": "38",
@@ -428,6 +438,18 @@
       "phone": "",
       "notes": "",
       "price": "€€"
+    },
+    {
+      "id": 39,
+      "name": "Tetley's",
+      "city": "Trento",
+      "address": "Via degli Orti, 1, 38122 Trento TN",
+      "lat": "46.065742",
+      "lng": "11.121244",
+      "typology": ["Pizzeria"],
+      "phone": "338-3612632",
+      "notes": "Pub",
+      "price": "€"
     }
   ]
 }
