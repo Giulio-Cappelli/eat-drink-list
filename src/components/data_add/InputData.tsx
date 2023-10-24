@@ -15,6 +15,7 @@ import { IconBeer, IconToolsKitchen2 } from "@tabler/icons-react";
 import { useState } from "react";
 import { addPlace, previewPlace } from "./functions/place";
 import { checkInput } from "./functions/checkInput";
+import { Price } from "../../types/types";
 
 const InputData = (props: {
   setPreview: any;
@@ -43,7 +44,7 @@ const InputData = (props: {
   const [note, setNote] = useState<string>("");
   const [price, setPrice] = useState<string>("");
 
-  const priceList = require("../../data/prices.json");
+  const prices: Price[] = require("../../data/prices.json");
 
   const handlePreviewClick = () => {
     previewPlace(setPreview, lat, lng);
@@ -186,7 +187,9 @@ const InputData = (props: {
         label={"Prezzo"}
         radius={"md"}
         value={price}
-        data={priceList}
+        data={prices.map((price): string => {
+          return price.symbol;
+        })}
         onChange={(newPrice: string) => setPrice(newPrice)}
       />
       <Textarea

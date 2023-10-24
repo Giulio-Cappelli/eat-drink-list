@@ -7,13 +7,13 @@ import {
   Stack,
   TextInput,
   Textarea,
-  useMantineTheme,
+  useMantineTheme
 } from "@mantine/core";
 import { openModal } from "@mantine/modals";
 import { filter, sortBy } from "lodash";
 import { DataTable, DataTableSortStatus } from "mantine-datatable";
 import { useEffect, useState } from "react";
-import { Place, Places } from "../../types/types";
+import { Place, Places, Price } from "../../types/types";
 import CallButton from "../buttons/CallButton";
 import CallButtonAlt from "../buttons/CallButtonAlt";
 import MapButton from "../buttons/MapButton";
@@ -38,37 +38,21 @@ const getTypology = (types: string[], color: string) => {
 };
 
 const getPrices = (price: string) => {
-  switch (price) {
-    case "€":
-      return (
-        <Badge color={"blue"} variant={"filled"} key={"€"}>
-          {"< 15€"}
-        </Badge>
-      );
-    case "€€":
-      return (
-        <Badge color={"lime"} variant={"filled"} key={"€€"}>
-          {"15€ - 20€"}
-        </Badge>
-      );
-    case "€€€":
-      return (
-        <Badge color={"yellow"} variant={"filled"} key={"€€€"}>
-          {"20€ - 30€"}
-        </Badge>
-      );
-    case "€€€€":
-      return (
-        <Badge color={"orange"} variant={"filled"} key={"€€€€"}>
-          {"30€ - 40€"}
-        </Badge>
-      );
-    case "€€€€€":
-      return (
-        <Badge color={"red"} variant={"filled"} key={"€€€€€"}>
-          {"> 40€"}
-        </Badge>
-      );
+  const prices: Price[] = require("../../data/prices.json");
+  const currentPrice = prices.find((item) => {
+    return item.symbol === price;
+  });
+
+  if (currentPrice) {
+    return (
+      <Badge
+        color={currentPrice.color}
+        variant={"filled"}
+        key={currentPrice.symbol}
+      >
+        {currentPrice.value}
+      </Badge>
+    );
   }
 };
 
@@ -93,7 +77,7 @@ const handleRowClick = (data: Place, theme: any) => {
           radius={"md"}
         />
         <TextInput
-          label={"Numero di Telefono"}
+          label={"Telefono"}
           value={data.phone}
           readOnly
           radius={"md"}
@@ -173,6 +157,7 @@ const TableSort2 = (props: { data: Places }) => {
           {
             accessor: "actions",
             title: "Azioni",
+            width: 100,
             render: (place) => (
               <Group spacing={4} position="center" noWrap>
                 <MapButton place={place} />
@@ -188,7 +173,7 @@ const TableSort2 = (props: { data: Places }) => {
             render: ({ typology }) => getTypology(typology, theme.primaryColor),
           },
           //{ accessor: "address", title: "Indirizzo" },
-          { accessor: "phone", title: "Numero Telefono" },
+          { accessor: "phone", title: "Telefono" },
           {
             accessor: "price",
             title: "Prezzo",

@@ -33,3 +33,9 @@ export interface ThProps {
   sorted: boolean;
   onSort(): void;
 }
+
+export interface Price {
+  symbol: string;
+  value: string;
+  color: string;
+}

@@ -1,1 +1,7 @@
-["€", "€€", "€€€", "€€€€", "€€€€€"]
+[
+  { "symbol": "€", "value": "< 15€", "color": "blue" },
+  { "symbol": "€€", "value": "15€ - 20€", "color": "lime" },
+  { "symbol": "€€€", "value": "20€ - 30€", "color": "yellow" },
+  { "symbol": "€€€€", "value": "30€ - 40€", "color": "orange" },
+  { "symbol": "€€€€€", "value": "> 40€", "color": "red" }
+]
