@@ -77,7 +77,8 @@
       "lng": "11.222419",
       "typology": ["Pizzeria"],
       "phone": "0461-530996",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": 8,

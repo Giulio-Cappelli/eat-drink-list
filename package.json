@@ -8,14 +8,14 @@
     "@mantine/core": "^6.0.20",
     "@mantine/hooks": "^6.0.20",
     "@mantine/modals": "^6.0.20",
-    "@tabler/icons-react": "^2.39.0",
-    "@types/jest": "^29.5.5",
-    "@types/node": "^20.8.6",
-    "@types/react": "^18.2.28",
-    "@types/react-dom": "^18.2.13",
+    "@tabler/icons-react": "^2.40.0",
+    "@types/jest": "^29.5.6",
+    "@types/node": "^20.8.9",
+    "@types/react": "^18.2.33",
+    "@types/react-dom": "^18.2.14",
     "@types/react-leaflet": "^3.0.0",
     "leaflet": "^1.9.4",
-    "mantine-datatable": "^6.0.0",
+    "mantine-datatable": "^6.0.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
@@ -50,8 +50,8 @@
     ]
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.6",
-    "@types/lodash": "^4.14.199",
+    "@types/leaflet": "^1.9.7",
+    "@types/lodash": "^4.14.200",
     "gh-pages": "^6.0.0"
   }
 }
