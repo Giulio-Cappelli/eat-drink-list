@@ -23,6 +23,7 @@ export interface PlaceS {
   notes: string;
   price: string;
 }
+
 export interface Places {
   places: Place[];
 }
