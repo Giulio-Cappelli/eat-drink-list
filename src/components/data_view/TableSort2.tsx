@@ -7,7 +7,7 @@ import {
   Stack,
   TextInput,
   Textarea,
-  useMantineTheme
+  useMantineTheme,
 } from "@mantine/core";
 import { openModal } from "@mantine/modals";
 import { filter, sortBy } from "lodash";
@@ -165,7 +165,11 @@ const TableSort2 = (props: { data: Places }) => {
               </Group>
             ),
           },
-          { accessor: "name", title: "Nome", sortable: true },
+          {
+            accessor: "name",
+            title: "Nome",
+            sortable: true,
+          },
           { accessor: "city", title: "Città", sortable: true },
           {
             accessor: "typology",
