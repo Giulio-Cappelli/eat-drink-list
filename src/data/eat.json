@@ -451,6 +451,18 @@
       "phone": "338-3612632",
       "notes": "Pub",
       "price": "€"
+    },
+    {
+      "id": "40",
+      "name": "Ramen House",
+      "city": "Trento",
+      "address": "Via Carlo Esterle, 8, 38122 Trento TN",
+      "lat": "46.0659345",
+      "lng": "11.1210780",
+      "typology": ["Ramen"],
+      "phone": "346-3112740",
+      "notes": "",
+      "price": "€€"
     }
   ]
 }
