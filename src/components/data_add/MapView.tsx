@@ -13,7 +13,7 @@ const MapView = (props: { coords: LatLngExpression }) => {
   return (
     <MapContainer
       center={coords}
-      zoom={13}
+      zoom={17}
       style={{ height: "100%", width: "100%", borderRadius: theme.radius.md }}
       scrollWheelZoom={false}
     >

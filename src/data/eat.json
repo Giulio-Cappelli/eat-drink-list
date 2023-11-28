@@ -203,7 +203,8 @@
       "lng": "11.11456",
       "typology": ["Piadine"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€"
     },
     {
       "id": 19,
@@ -214,7 +215,8 @@
       "lng": "11.123332",
       "typology": ["Panini"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€"
     },
     {
       "id": 20,

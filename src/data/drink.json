@@ -175,6 +175,18 @@
       "typology": ["Bubble Tea"],
       "phone": "",
       "notes": ""
+    },
+    {
+      "id": "17",
+      "name": "Bici Grill",
+      "city": "Trento",
+      "address": "Via Lidorno, 2, 38122 Trento TN",
+      "lat": "46.0330434",
+      "lng": "11.1249111",
+      "typology": ["Caffetteria", "Aperitivi"],
+      "phone": "",
+      "notes": "",
+      "price": ""
     }
   ]
 }
