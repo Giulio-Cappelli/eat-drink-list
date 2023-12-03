@@ -124,7 +124,8 @@
       "lng": "11.0184",
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "",
-      "notes": ""
+      "notes": "",
+      "price": "€€"
     },
     {
       "id": 12,
