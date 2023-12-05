@@ -466,6 +466,18 @@
       "phone": "346-3112740",
       "notes": "",
       "price": "€€"
+    },
+    {
+      "id": "41",
+      "name": "Perbene o Quasi",
+      "city": "Trento",
+      "address": "Via Giovanni Prati, 4-6, 38122 Trento TN",
+      "lat": "46.0658788",
+      "lng": "11.1195706",
+      "typology": ["Ristorante", "Panini"],
+      "phone": "375-7880805",
+      "notes": "",
+      "price": "€€€"
     }
   ]
 }
