@@ -21,7 +21,7 @@
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
       "notes": "Cucina tipica",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Figo",
-      "price": "€€€€"
+      "price": "€€€€€€"
     },
     {
       "id": 4,
@@ -78,7 +78,7 @@
       "typology": ["Pizzeria"],
       "phone": "0461-530996",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 8,
@@ -90,7 +90,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€"
+      "price": "€€€€€"
     },
     {
       "id": 9,
@@ -102,7 +102,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€"
+      "price": "€€€€€"
     },
     {
       "id": 10,
@@ -125,7 +125,7 @@
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "0461-860428",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 12,
@@ -137,7 +137,7 @@
       "typology": ["Sushi"],
       "phone": "347-2641954",
       "notes": "",
-      "price": "€€€"
+      "price": "€€€€€"
     },
     {
       "id": 13,
@@ -159,7 +159,8 @@
       "lng": "11.144694",
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "0461-390226",
-      "notes": "Bella vista"
+      "notes": "Bella vista",
+      "price": "€€€"
     },
     {
       "id": 15,
@@ -193,7 +194,7 @@
       "typology": ["Sushi"],
       "phone": "",
       "notes": "",
-      "price": "€€€"
+      "price": "€€€€€"
     },
     {
       "id": 18,
@@ -253,7 +254,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "",
-      "price": "€€€"
+      "price": "€€€€€"
     },
     {
       "id": 23,
@@ -265,7 +266,7 @@
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "388-3440317",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 24,
@@ -289,7 +290,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Carne",
-      "price": "€€€€"
+      "price": "€€€€€€"
     },
     {
       "id": 26,
@@ -312,7 +313,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Bella vista",
-      "price": "€€€"
+      "price": "€€€€€€"
     },
     {
       "id": 28,
@@ -324,7 +325,7 @@
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
       "notes": "Cucina tipica",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 29,
@@ -359,7 +360,7 @@
       "typology": ["Ristorante"],
       "phone": "",
       "notes": "Cucina tipica, Turistico",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 32,
@@ -441,7 +442,7 @@
       "typology": ["Ristorante", "Messicano", "Pizzeria"],
       "phone": "",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": 39,
@@ -453,7 +454,7 @@
       "typology": ["Pizzeria"],
       "phone": "338-3612632",
       "notes": "Pub",
-      "price": "€"
+      "price": "€€"
     },
     {
       "id": "40",
@@ -465,7 +466,7 @@
       "typology": ["Ramen"],
       "phone": "346-3112740",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": "41",
