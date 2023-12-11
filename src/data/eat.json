@@ -479,6 +479,18 @@
       "phone": "375-7880805",
       "notes": "Hamburger",
       "price": "€€€"
+    },
+    {
+      "id": "42",
+      "name": "Uva & Menta",
+      "city": "Trento",
+      "address": "Via Dietro le Mura A, 35, 38122 Trento TN",
+      "lat": "46.0655008",
+      "lng": "11.1246474",
+      "typology": ["Pizzeria"],
+      "phone": "",
+      "notes": "Pizze particolari",
+      "price": "€€€"
     }
   ]
 }
