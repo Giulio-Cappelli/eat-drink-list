@@ -136,7 +136,7 @@
       "lng": "11.1246535",
       "typology": ["Sushi"],
       "phone": "347-2641954",
-      "notes": "",
+      "notes": "Migliore",
       "price": "€€€€€"
     },
     {
@@ -491,6 +491,18 @@
       "phone": "",
       "notes": "Pizze particolari",
       "price": "€€€"
+    },
+    {
+      "id": "43",
+      "name": "Sushyamo",
+      "city": "Rovereto",
+      "address": "Via dell'Abetone, 9, 38068 Rovereto TN",
+      "lat": "45.8890493",
+      "lng": "11.0335328",
+      "typology": ["Sushi"],
+      "phone": "0464-975000",
+      "notes": "Migliore",
+      "price": "€€€€€"
     }
   ]
 }
