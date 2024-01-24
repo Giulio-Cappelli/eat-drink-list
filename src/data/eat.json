@@ -503,6 +503,18 @@
       "phone": "0464-975000",
       "notes": "Migliore",
       "price": "€€€€€"
+    },
+    {
+      "id": "44",
+      "name": "Officina Gambrinus",
+      "city": "Trento",
+      "address": "Via Alto Adige, 164, 38121 Trento TN, Italia",
+      "lat": "46.1278938",
+      "lng": "11.1094114",
+      "typology": ["Ristorante", "Panini", "Pizzeria"],
+      "phone": "",
+      "notes": "Pub con tante birre",
+      "price": "€€€€"
     }
   ]
 }
