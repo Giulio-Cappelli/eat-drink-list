@@ -515,6 +515,18 @@
       "phone": "",
       "notes": "Pub con tante birre",
       "price": "€€€€"
+    },
+    {
+      "id": "45",
+      "name": "Hotel Schopfenhof",
+      "city": "Dobbiaco",
+      "address": "Costanosellari, 12, 39034 Dobbiaco BZ, Italia",
+      "lat": "46.7347726",
+      "lng": "12.2613448",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Cotoletta molto buona",
+      "price": "€€€"
     }
   ]
 }
