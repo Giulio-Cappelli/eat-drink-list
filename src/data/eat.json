@@ -527,6 +527,18 @@
       "phone": "",
       "notes": "Cotoletta molto buona",
       "price": "€€€"
+    },
+    {
+      "id": "46",
+      "name": "Oishy Ramen&sushi",
+      "city": "Trento",
+      "address": "Via Antonio Rosmini, 18, 38122 Trento TN",
+      "lat": "46.0679096",
+      "lng": "11.1186296",
+      "typology": ["Cinese", "Ramen"],
+      "phone": "331-8923388",
+      "notes": "",
+      "price": "€€€"
     }
   ]
 }
