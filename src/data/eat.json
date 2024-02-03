@@ -430,7 +430,7 @@
       "typology": ["Ristorante", "Americano"],
       "phone": "0461-915572",
       "notes": "",
-      "price": "€€"
+      "price": "€€€"
     },
     {
       "id": "38",
@@ -539,6 +539,18 @@
       "phone": "331-8923388",
       "notes": "",
       "price": "€€"
+    },
+    {
+      "id": "47",
+      "name": "Old Wild West",
+      "city": "Trento",
+      "address": "Via Gemma de Gresti, 6, 38122 Trento TN",
+      "lat": "46.0879723",
+      "lng": "11.1183625",
+      "typology": ["Ristorante", "Americano"],
+      "phone": "342-8695665",
+      "notes": "",
+      "price": "€€€"
     }
   ]
 }
