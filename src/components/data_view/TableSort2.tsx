@@ -21,13 +21,23 @@ import MapButtonAlt from "../buttons/MapButtonAlt";
 
 const getTypology = (types: string[], color: string) => {
   const badges = types.map((type: string) => {
-    return (
-      <Grid.Col span={1} key={type}>
-        <Badge color={color} variant={"filled"} key={type}>
-          {type}
-        </Badge>
-      </Grid.Col>
-    );
+    if (type === "⭐️") {
+      return (
+        <Grid.Col span={1} key={type}>
+          <Badge color={"yellow"} variant={"filled"} key={type}>
+            {type}
+          </Badge>
+        </Grid.Col>
+      );
+    } else {
+      return (
+        <Grid.Col span={"auto"} key={type}>
+          <Badge color={color} variant={"filled"} key={type}>
+            {type}
+          </Badge>
+        </Grid.Col>
+      );
+    }
   });
 
   return (
