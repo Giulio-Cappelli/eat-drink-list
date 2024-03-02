@@ -552,6 +552,18 @@
       "phone": "342-8695665",
       "notes": "",
       "price": "€€€"
+    },
+    {
+      "id": "48",
+      "name": "La Terrazza",
+      "city": "Trento",
+      "address": "Piazzale Europa, 22, 38123 Trento TN",
+      "lat": "46.0406051",
+      "lng": "11.1329032",
+      "typology": ["Indiano"],
+      "phone": "0461-390060",
+      "notes": "",
+      "price": "€€€"
     }
   ]
 }
