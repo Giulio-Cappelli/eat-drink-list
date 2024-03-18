@@ -1,7 +1,7 @@
 [
   { "symbol": "€", "value": "< 10€", "color": "blue" },
   { "symbol": "€€", "value": "10€ - 15€", "color": "lime" },
-  { "symbol": "€€€", "value": "15€ - 20€", "color": "yellow" },
+  { "symbol": "€€€", "value": "15€ - 20€", "color": "lime" },
   { "symbol": "€€€€", "value": "20€ - 25€", "color": "yellow" },
   { "symbol": "€€€€€", "value": "25€ - 30€", "color": "orange" },
   { "symbol": "€€€€€€", "value": "30€ - 35€", "color": "red" },
