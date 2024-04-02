@@ -1,17 +1,6 @@
 {
   "places": [
     {
-      "id": 1,
-      "name": "Ristorante Pizzeria Roma",
-      "city": "Aldeno",
-      "address": "Via Roma, 8, 38060 Aldeno TN",
-      "lat": "45.977669",
-      "lng": "11.091398",
-      "typology": ["Indiano", "Ristorante", "Pizzeria"],
-      "phone": "",
-      "notes": ""
-    },
-    {
       "id": 2,
       "name": "Al Passetto",
       "city": "Cortina D'Ampezzo",
