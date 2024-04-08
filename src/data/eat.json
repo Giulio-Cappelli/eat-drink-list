@@ -553,6 +553,18 @@
       "phone": "0461-390060",
       "notes": "",
       "price": "€€€"
+    },
+    {
+      "id": "48",
+      "name": "URBAN R-EVOLUTION PUB",
+      "city": "Bergamo",
+      "address": "Via Enrico Fermi, 27, 24035 Curno BG",
+      "lat": "45.6872220",
+      "lng": "9.6220550",
+      "typology": ["Ristorante", "Pub"],
+      "phone": "",
+      "notes": "",
+      "price": "€€€"
     }
   ]
 }
