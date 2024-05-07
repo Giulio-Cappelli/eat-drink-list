@@ -171,7 +171,7 @@
       "lng": "11.123408",
       "typology": ["Pizzeria", "Ristorante"],
       "phone": "",
-      "notes": "Cucina tipica",
+      "notes": "Cucina tipica, Birreria",
       "price": "€€€€"
     },
     {
@@ -565,6 +565,42 @@
       "phone": "",
       "notes": "Pub",
       "price": "€€€"
+    },
+    {
+      "id": "49",
+      "name": "Bayern Drehspieß",
+      "city": "München",
+      "address": "Tal 14, 80331 München, Germania",
+      "lat": "48.1359239",
+      "lng": "11.5787162",
+      "typology": ["Kebab"],
+      "phone": "",
+      "notes": "",
+      "price": "€"
+    },
+    {
+      "id": "50",
+      "name": "Riegele WirtsHaus",
+      "city": "Augsburg",
+      "address": "Frölichstraße 26, 86150 Augsburg, Germania",
+      "lat": "48.3675041",
+      "lng": "10.8845953",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "Cucina tipica, Birreria",
+      "price": "€€€"
+    },
+    {
+      "id": "51",
+      "name": "QMUH Ulm",
+      "city": "Ulm",
+      "address": "Lautengasse 4, 89073 Ulm, Germania",
+      "lat": "48.3977095",
+      "lng": "9.9893789",
+      "typology": ["Ristorante"],
+      "phone": "",
+      "notes": "",
+      "price": "€€€€"
     }
   ]
 }
