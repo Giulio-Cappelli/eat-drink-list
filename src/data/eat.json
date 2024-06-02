@@ -601,6 +601,18 @@
       "phone": "",
       "notes": "",
       "price": "€€€€"
+    },
+    {
+      "id": "52",
+      "name": "K-Kaiseki Sushi Restaurant",
+      "city": "Milano",
+      "address": "Via Paolo Sarpi, 5, 20154 Milano MI",
+      "lat": "45.4815783",
+      "lng": "9.1803355",
+      "typology": ["Sushi"],
+      "phone": "",
+      "notes": "",
+      "price": "€€€€€"
     }
   ]
 }
