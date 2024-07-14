@@ -613,6 +613,20 @@
       "phone": "",
       "notes": "",
       "price": "€€€€€"
+    },
+    {
+      "id": "53",
+      "name": "Fradiavolo Pizzeria",
+      "city": "Bologna",
+      "address": "Via Santo Stefano, 1/B, 40125 Bologna BO",
+      "lat": "44.4933723",
+      "lng": "11.3468421",
+      "typology": [
+        "Pizzeria"
+      ],
+      "phone": "",
+      "notes": "Pizza stile napoletano",
+      "price": "€€€"
     }
   ]
 }
