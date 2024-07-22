@@ -621,12 +621,22 @@
       "address": "Via Santo Stefano, 1/B, 40125 Bologna BO",
       "lat": "44.4933723",
       "lng": "11.3468421",
-      "typology": [
-        "Pizzeria"
-      ],
+      "typology": ["Pizzeria"],
       "phone": "",
       "notes": "Pizza stile napoletano",
       "price": "€€€"
+    },
+    {
+      "id": "54",
+      "name": "Doppio Malto",
+      "city": "Trento",
+      "address": "Via del Brennero, 148, 38121 Trento TN",
+      "lat": "46.0802720",
+      "lng": "11.1224544",
+      "typology": ["Ristorante", "Panini"],
+      "phone": "3339561554",
+      "notes": "",
+      "price": "€€€€"
     }
   ]
 }
