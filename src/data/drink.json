@@ -187,6 +187,18 @@
       "phone": "",
       "notes": "",
       "price": ""
+    },
+    {
+      "id": "18",
+      "name": "NemBeer Pub",
+      "city": "Nembro",
+      "address": "Via Case Sparse Europa, 15, 24027 Nembro BG",
+      "lat": "45.7521670",
+      "lng": "9.7816273",
+      "typology": ["Birra", "Cocktails"],
+      "phone": "",
+      "notes": "Pub",
+      "price": "€"
     }
   ]
 }
