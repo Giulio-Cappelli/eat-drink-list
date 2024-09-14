@@ -637,6 +637,18 @@
       "phone": "333-9561554",
       "notes": "",
       "price": "€€€€"
+    },
+    {
+      "id": "55",
+      "name": "Pizza e Pizza",
+      "city": "Trento",
+      "address": "Via S. Bernardino, 24, 38122 Trento TN",
+      "lat": "46.0638644",
+      "lng": "11.1306056",
+      "typology": ["Pizzeria"],
+      "phone": "0461-262095",
+      "notes": "",
+      "price": "€€"
     }
   ]
 }
