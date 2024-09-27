@@ -649,6 +649,18 @@
       "phone": "0461-262095",
       "notes": "",
       "price": "€€"
+    },
+    {
+      "id": "56",
+      "name": "Orostube",
+      "city": "Trento",
+      "address": "Via Sommarive, 10, 38123 Povo TN",
+      "lat": "46.0647594",
+      "lng": "11.1504525",
+      "typology": ["Pizzeria", "Ristorante"],
+      "phone": "",
+      "notes": "",
+      "price": "€€"
     }
   ]
 }
