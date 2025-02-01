@@ -673,6 +673,36 @@
       "phone": "",
       "notes": "Pub",
       "price": "€€€"
+    },
+    {
+      "id": "58",
+      "name": "Nagoya X Sushi",
+      "city": "Curno",
+      "address": "Via Enrico Fermi, 46, 24035 Curno BG",
+      "lat": "45.6891647",
+      "lng": "9.6226301",
+      "typology": [
+        "⭐️",
+        "Sushi"
+      ],
+      "phone": "340-5527360",
+      "notes": "",
+      "price": "€€€€"
+    },
+    {
+      "id": "59",
+      "name": "GiustoCosì",
+      "city": "Treviglio",
+      "address": "Via Roma, 10, 24047 Treviglio BG",
+      "lat": "45.5222141",
+      "lng": "9.5937482",
+      "typology": [
+        "⭐️",
+        "Ristorante"
+      ],
+      "phone": "0363-323163",
+      "notes": "http://giustocositreviglio.it/, Ristorante di HumanSafari, Costosetto ma molto buono",
+      "price": "€€€€€"
     }
   ]
 }
