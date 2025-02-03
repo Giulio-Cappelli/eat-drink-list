@@ -672,7 +672,8 @@
       "typology": ["Ristorante", "Pizzeria"],
       "phone": "",
       "notes": "Pub",
-      "price": "€€€"
+      "price": "€€€",
+      "menu": "https://www.leggimenu.it/menu/nembeerpub"
     },
     {
       "id": "58",
@@ -701,8 +702,9 @@
         "Ristorante"
       ],
       "phone": "0363-323163",
-      "notes": "http://giustocositreviglio.it/, Ristorante di HumanSafari, Costosetto ma molto buono",
-      "price": "€€€€€"
+      "notes": "Ristorante di HumanSafari, Costosetto ma molto buono",
+      "price": "€€€€€",
+      "menu": "https://beacons.ai/giustocosi"
     }
   ]
 }

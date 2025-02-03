@@ -1,7 +1,7 @@
 import { Button } from "@mantine/core";
 import { IconMapPin } from "@tabler/icons-react";
 import { Place } from "../../types/types";
-import { redirect } from "./functions/redirect";
+import { maps } from "./functions/maps";
 
 const MapButtonAlt = (props: { place: Place }) => {
   const { place } = props;
@@ -9,9 +9,9 @@ const MapButtonAlt = (props: { place: Place }) => {
   return (
     <Button
       radius={"md"}
-      onClick={(event) => {
+      onClick={(event: any) => {
         event.stopPropagation();
-        redirect(place);
+        maps(place);
       }}
     >
       <IconMapPin size={24} />

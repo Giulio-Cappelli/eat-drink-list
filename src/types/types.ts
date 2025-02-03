@@ -9,6 +9,7 @@ export interface Place {
   phone: string;
   notes: string;
   price: string;
+  menu: string;
 }
 
 export interface PlaceS {
@@ -22,6 +23,7 @@ export interface PlaceS {
   phone: string;
   notes: string;
   price: string;
+  menu: string;
 }
 
 export interface Places {

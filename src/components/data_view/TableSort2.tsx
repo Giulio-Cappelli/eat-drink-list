@@ -18,6 +18,7 @@ import CallButton from "../buttons/CallButton";
 import CallButtonAlt from "../buttons/CallButtonAlt";
 import MapButton from "../buttons/MapButton";
 import MapButtonAlt from "../buttons/MapButtonAlt";
+import MenuButtonAlt from "../buttons/MenuButtonAlt";
 
 const getTypology = (types: string[], color: string) => {
   const badges = types.map((type: string) => {
@@ -100,6 +101,9 @@ const handleRowClick = (data: Place, theme: any) => {
           </Grid.Col>
           <Grid.Col span={1}>
             <CallButtonAlt place={data} />
+          </Grid.Col>
+          <Grid.Col span={1}>
+            <MenuButtonAlt place={data} />
           </Grid.Col>
         </Grid>
       </Stack>

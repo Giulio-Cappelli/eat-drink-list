@@ -14,7 +14,7 @@ const CallButton = (props: { place: Place }) => {
         <HoverCard.Target>
           <ActionIcon
             color={theme.primaryColor}
-            onClick={(event) => {
+            onClick={(event: any) => {
               event.stopPropagation();
               call(place);
             }}

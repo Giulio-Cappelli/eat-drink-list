@@ -1,21 +1,21 @@
 import { Button } from "@mantine/core";
-import { IconPhone } from "@tabler/icons-react";
+import { IconChefHat } from "@tabler/icons-react";
 import { Place } from "../../types/types";
-import { call } from "./functions/call";
+import { menu } from "./functions/menu";
 
-const CallButtonAlt = (props: { place: Place }) => {
+const MenuButtonAlt = (props: { place: Place }) => {
   const { place } = props;
 
-  if (place.phone) {
+  if (place.menu) {
     return (
       <Button
         radius={"md"}
         onClick={(event: any) => {
           event.stopPropagation();
-          call(place);
+          menu(place);
         }}
       >
-        <IconPhone size={24} />
+        <IconChefHat size={24} />
       </Button>
     );
   } else {
@@ -23,4 +23,4 @@ const CallButtonAlt = (props: { place: Place }) => {
   }
 };
 
-export default CallButtonAlt;
+export default MenuButtonAlt;

@@ -1,7 +1,7 @@
 import { ActionIcon, HoverCard, Text, useMantineTheme } from "@mantine/core";
 import { IconMapPin } from "@tabler/icons-react";
 import { Place } from "../../types/types";
-import { redirect } from "./functions/redirect";
+import { maps } from "./functions/maps";
 
 const MapButton = (props: { place: Place }) => {
   const { place } = props;
@@ -13,9 +13,9 @@ const MapButton = (props: { place: Place }) => {
       <HoverCard.Target>
         <ActionIcon
           color={theme.primaryColor}
-          onClick={(event) => {
+          onClick={(event: any) => {
             event.stopPropagation();
-            redirect(place);
+            maps(place);
           }}
         >
           <IconMapPin size={16} />
