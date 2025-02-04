@@ -34,7 +34,8 @@ export const addPlace = (
   typology: string[],
   phone: string,
   notes: string,
-  price: string
+  price: string,
+  menu: string
 ): PlaceS => {
   const id: string = getLastId(value, eat, drink);
 
@@ -49,5 +50,6 @@ export const addPlace = (
     phone,
     notes,
     price,
+    menu,
   } as PlaceS;
 };

@@ -43,6 +43,7 @@ const InputData = (props: {
   const [phone, setPhone] = useState<string>("");
   const [note, setNote] = useState<string>("");
   const [price, setPrice] = useState<string>("");
+  const [menu, setMenu] = useState<string>("");
 
   const prices: Price[] = require("../../data/prices.json");
 
@@ -62,7 +63,8 @@ const InputData = (props: {
         typology,
         phone,
         note,
-        price
+        price,
+        menu
       )
     );
     open();
@@ -191,6 +193,13 @@ const InputData = (props: {
           return price.symbol;
         })}
         onChange={(newPrice: string) => setPrice(newPrice)}
+      />
+      <TextInput
+        placeholder={"Link al menu"}
+        label={"Menu"}
+        radius={"md"}
+        value={menu}
+        onChange={(event) => setMenu(event.currentTarget.value)}
       />
       <Textarea
         placeholder={"Aggiungi Nota"}
