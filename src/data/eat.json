@@ -710,7 +710,7 @@
       "typology": ["Pizzeria"],
       "phone": "0461-1830316",
       "notes": "",
-      "price": "€€€",
+      "price": "€€€€",
       "menu": "https://latalpapizzeria.it/wp-content/uploads/2025/02/Menu_Pergine.pdf"
     },
     {
@@ -723,7 +723,7 @@
       "typology": ["Pizzeria"],
       "phone": "351-3455834",
       "notes": "",
-      "price": "€€€",
+      "price": "€€€€",
       "menu": "https://pizzerialatalpa.it/wp-content/uploads/2025/01/00_MENU_LA-TALPA_ESECUTIVO-4_removed.pdf"
     },
     {
@@ -736,7 +736,7 @@
       "typology": ["Pizzeria"],
       "phone": "0461-557202",
       "notes": "",
-      "price": "€€€",
+      "price": "€€€€",
       "menu": "https://pizzerialatalpa.it/wp-content/uploads/2024/09/Talpa_Menu_Aprile2023.pdf"
     }
   ]
