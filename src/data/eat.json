@@ -699,6 +699,32 @@
       "notes": "Ristorante di HumanSafari, Costosetto ma molto buono",
       "price": "€€€€€",
       "menu": "https://beacons.ai/giustocosi"
+    },
+    {
+      "id": "60",
+      "name": "La Talpa",
+      "city": "Pergine",
+      "address": "Ponte regio località Fratte 29, 38057 Pergine Valsugana TN",
+      "lat": "46.0698603",
+      "lng": "11.2211878",
+      "typology": ["Pizzeria"],
+      "phone": "0461-1830316",
+      "notes": "",
+      "price": "€€€",
+      "menu": "https://latalpapizzeria.it/wp-content/uploads/2025/02/Menu_Pergine.pdf"
+    },
+    {
+      "id": "61",
+      "name": "La Talpa",
+      "city": "Trento",
+      "address": "Corso del Lavoro e della Scienza, 6/8, 38122 Trento TN",
+      "lat": "46.0622550",
+      "lng": "11.1147785",
+      "typology": ["Pizzeria"],
+      "phone": "351-3455834",
+      "notes": "",
+      "price": "€€€",
+      "menu": "https://pizzerialatalpa.it/wp-content/uploads/2025/01/00_MENU_LA-TALPA_ESECUTIVO-4_removed.pdf"
     }
   ]
 }
