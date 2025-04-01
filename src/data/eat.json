@@ -725,6 +725,19 @@
       "notes": "",
       "price": "€€€",
       "menu": "https://pizzerialatalpa.it/wp-content/uploads/2025/01/00_MENU_LA-TALPA_ESECUTIVO-4_removed.pdf"
+    },
+    {
+      "id": "61",
+      "name": "La Talpa",
+      "city": "Miola di Piné",
+      "address": "Via della Crós, 7, 38042 Baselga di Piné TN",
+      "lat": "46.1271747",
+      "lng": "11.2496804",
+      "typology": ["Pizzeria"],
+      "phone": "0461-557202",
+      "notes": "",
+      "price": "€€€",
+      "menu": "https://pizzerialatalpa.it/wp-content/uploads/2024/09/Talpa_Menu_Aprile2023.pdf"
     }
   ]
 }
