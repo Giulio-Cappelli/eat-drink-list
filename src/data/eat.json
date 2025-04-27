@@ -738,6 +738,19 @@
       "notes": "",
       "price": "€€€€",
       "menu": "https://pizzerialatalpa.it/wp-content/uploads/2024/09/Talpa_Menu_Aprile2023.pdf"
+    },
+    {
+      "id": "63",
+      "name": "Fabbrica In Pedavena",
+      "city": "Treviglio",
+      "address": "Via Rossaro, 28, 24047 Treviglio BG",
+      "lat": "45.5124520",
+      "lng": "9.5709251",
+      "typology": ["Ristorante", "Panini", "Pizzeria"],
+      "phone": "348-1170715",
+      "notes": "",
+      "price": "€€€€",
+      "menu": "https://www.fabbricainpedavenatreviglio.it/#menu"
     }
   ]
 }
