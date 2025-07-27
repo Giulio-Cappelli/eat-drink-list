@@ -777,6 +777,19 @@
 			"notes": "",
 			"price": "€€€€",
 			"menu": ""
+		},
+		{
+			"id": "66",
+			"name": "Pasticceria Cara Siria",
+			"city": "Trento",
+			"address": "Via Torre d'Augusto, 21, 38122 Trento TN",
+			"lat": "46.0731872",
+			"lng": "11.1259526",
+			"typology": ["Pasticceria"],
+			"phone": "389-1008586",
+			"notes": "Pasticceria Siriana",
+			"price": "€",
+			"menu": "http://www.carasiria.it/"
 		}
 	]
 }
