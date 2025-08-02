@@ -561,7 +561,7 @@
 			"address": "Via Enrico Fermi, 27, 24035 Curno BG",
 			"lat": "45.6872220",
 			"lng": "9.6220550",
-			"typology": ["Ristorante"],
+			"typology": ["Ristorante", "Pizzeria"],
 			"phone": "",
 			"notes": "Pub",
 			"price": "€€€"
