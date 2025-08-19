@@ -790,6 +790,19 @@
 			"notes": "Pasticceria Siriana",
 			"price": "€",
 			"menu": "http://www.carasiria.it/"
+		},
+		{
+			"id": "67",
+			"name": "Caprizza",
+			"city": "Trento",
+			"address": "Via Roma, 50, 38122 Trento TN",
+			"lat": "46.0694633",
+			"lng": "11.1201206",
+			"typology": ["Pizzeria"],
+			"phone": "0461-521781",
+			"notes": "",
+			"price": "€€€€",
+			"menu": "https://www.caprizza.it/qrmenu/Caprizza_TN_06_2025_IT.pdf"
 		}
 	]
 }
