@@ -800,9 +800,22 @@
 			"lng": "11.1201206",
 			"typology": ["Pizzeria"],
 			"phone": "0461-521781",
-			"notes": "",
+			"notes": "Nulla di particolare",
 			"price": "€€€€",
 			"menu": "https://www.caprizza.it/qrmenu/Caprizza_TN_06_2025_IT.pdf"
+		},
+		{
+			"id": "68",
+			"name": "Tàstiko",
+			"city": "Trento",
+			"address": "Piazza Santa Maria Maggiore, 32, 38122 Trento TN",
+			"lat": "46.0684053",
+			"lng": "11.1188143",
+			"typology": ["Ristorante", "Panini"],
+			"phone": "375-5024245",
+			"notes": "Brisket e Pastrami",
+			"price": "€€€€",
+			"menu": "https://www.tastiko.it/wp-content/uploads/2020/02/Tastiko-men%C3%B9.pdf"
 		}
 	]
 }
