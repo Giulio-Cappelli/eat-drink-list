@@ -460,7 +460,7 @@
 		},
 		{
 			"id": "41",
-			"name": "Perbene o Quasi",
+			"name": "Perbene - Burger o quasi",
 			"city": "Trento",
 			"address": "Via Giovanni Prati, 4-6, 38122 Trento TN",
 			"lat": "46.0658788",
@@ -468,7 +468,8 @@
 			"typology": ["Ristorante", "Panini"],
 			"phone": "375-7880805",
 			"notes": "Hamburger",
-			"price": "€€€"
+			"price": "€€€",
+			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
 		},
 		{
 			"id": "42",
@@ -527,7 +528,7 @@
 			"lng": "11.1186296",
 			"typology": ["Cinese", "Ramen"],
 			"phone": "331-8923388",
-			"notes": "",
+			"notes": "CHIUSO",
 			"price": "€€"
 		},
 		{
@@ -779,19 +780,6 @@
 			"menu": ""
 		},
 		{
-			"id": "66",
-			"name": "Pasticceria Cara Siria",
-			"city": "Trento",
-			"address": "Via Torre d'Augusto, 21, 38122 Trento TN",
-			"lat": "46.0731872",
-			"lng": "11.1259526",
-			"typology": ["Pasticceria"],
-			"phone": "389-1008586",
-			"notes": "Pasticceria Siriana",
-			"price": "€",
-			"menu": "http://www.carasiria.it/"
-		},
-		{
 			"id": "67",
 			"name": "Caprizza",
 			"city": "Trento",
@@ -829,6 +817,19 @@
 			"notes": "",
 			"price": "€€",
 			"menu": "https://pokegotrento.eatbu.com/"
+		},
+		{
+			"id": "70",
+			"name": "Perbene - Pizza o quasi",
+			"city": "Trento",
+			"address": "Via Oriola, 29, 38122 Trento TN",
+			"lat": "46.0682596",
+			"lng": "11.1232081",
+			"typology": ["Pizzeria"],
+			"phone": "375-8886928",
+			"notes": "",
+			"price": "€€€",
+			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu"
 		}
 	]
 }

@@ -212,6 +212,58 @@
 			"notes": "",
 			"price": "€",
 			"menu": ""
+		},
+		{
+			"id": "20",
+			"name": "Pasticceria Cara Siria",
+			"city": "Trento",
+			"address": "Via Torre d'Augusto, 21, 38122 Trento TN",
+			"lat": "46.0731872",
+			"lng": "11.1259526",
+			"typology": ["Pasticceria"],
+			"phone": "389-1008586",
+			"notes": "Pasticceria Siriana",
+			"price": "€",
+			"menu": "http://www.carasiria.it/"
+		},
+		{
+			"id": "21",
+			"name": "Bar Duomo Bistrot",
+			"city": "Trento",
+			"address": "Via Giuseppe Verdi, 40, 38122 Trento TN",
+			"lat": "46.0667626",
+			"lng": "11.1209536",
+			"typology": ["Aperitivi"],
+			"phone": "376-1286207",
+			"notes": "",
+			"price": "€€",
+			"menu": "https://barduomobistrot.qromo.it/"
+		},
+		{
+			"id": "22",
+			"name": "Il Monello",
+			"city": "Trento",
+			"address": "Via Giuseppe Mazzini, 11, 38122 Trento TN",
+			"lat": "46.0661016",
+			"lng": "11.1228447",
+			"typology": ["⭐️", "Aperitivi", "Cocktails"],
+			"phone": "346-5869057",
+			"notes": "",
+			"price": "€€",
+			"menu": ""
+		},
+		{
+			"id": "23",
+			"name": "dasQ",
+			"city": "Trento",
+			"address": "Via Vittorio Veneto, 79, 38122 Trento TN",
+			"lat": "46.0597116",
+			"lng": "11.1256286",
+			"typology": ["⭐️", "Aperitivi", "Cocktails"],
+			"phone": "0461-1431219",
+			"notes": "Cocktails molto buoni",
+			"price": "€€",
+			"menu": ""
 		}
 	]
 }
