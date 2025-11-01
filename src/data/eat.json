@@ -388,7 +388,7 @@
 			"notes": "Pesce molto buono"
 		},
 		{
-			"id": "35",
+			"id": 35,
 			"name": "Mr. Gyros",
 			"city": "Innsbruck",
 			"address": "Innrain 9, 6020 Innsbruck",
@@ -399,7 +399,7 @@
 			"notes": ""
 		},
 		{
-			"id": "36",
+			"id": 36,
 			"name": "Hard Rock Cafe",
 			"city": "Innsbruck",
 			"address": "Maria-Theresien-Straße 16, 6020 Innsbruck, Austria",
@@ -411,7 +411,7 @@
 			"price": "€€€€"
 		},
 		{
-			"id": "37",
+			"id": 37,
 			"name": "Old Wild West",
 			"city": "Trento",
 			"address": "Piazza delle Donne Lavoratrici, 13, 38121 Trento TN",
@@ -423,7 +423,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "38",
+			"id": 38,
 			"name": "Mexico City",
 			"city": "Villabassa",
 			"address": "Via Rienza, 31, 39039 Villabassa BZ",
@@ -447,7 +447,7 @@
 			"price": "€€"
 		},
 		{
-			"id": "40",
+			"id": 40,
 			"name": "Ramen House",
 			"city": "Trento",
 			"address": "Via Carlo Esterle, 8, 38122 Trento TN",
@@ -459,7 +459,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "41",
+			"id": 41,
 			"name": "Perbene - Burger o quasi",
 			"city": "Trento",
 			"address": "Via Giovanni Prati, 4-6, 38122 Trento TN",
@@ -472,7 +472,7 @@
 			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
 		},
 		{
-			"id": "42",
+			"id": 42,
 			"name": "Uva & Menta",
 			"city": "Trento",
 			"address": "Via Dietro le Mura A, 35, 38122 Trento TN",
@@ -484,7 +484,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "43",
+			"id": 43,
 			"name": "Sushyamo",
 			"city": "Rovereto",
 			"address": "Via dell'Abetone, 9, 38068 Rovereto TN",
@@ -496,7 +496,7 @@
 			"price": "€€€€€"
 		},
 		{
-			"id": "44",
+			"id": 44,
 			"name": "Officina Gambrinus",
 			"city": "Trento",
 			"address": "Via Alto Adige, 164, 38121 Trento TN, Italia",
@@ -508,7 +508,7 @@
 			"price": "€€€€"
 		},
 		{
-			"id": "45",
+			"id": 45,
 			"name": "Hotel Schopfenhof",
 			"city": "Dobbiaco",
 			"address": "Costanosellari, 12, 39034 Dobbiaco BZ, Italia",
@@ -520,7 +520,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "46",
+			"id": 46,
 			"name": "Oishy Ramen&sushi",
 			"city": "Trento",
 			"address": "Via Antonio Rosmini, 18, 38122 Trento TN",
@@ -532,7 +532,7 @@
 			"price": "€€"
 		},
 		{
-			"id": "47",
+			"id": 47,
 			"name": "Old Wild West",
 			"city": "Trento",
 			"address": "Via Gemma de Gresti, 6, 38122 Trento TN",
@@ -544,7 +544,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "48",
+			"id": 48,
 			"name": "La Terrazza",
 			"city": "Trento",
 			"address": "Piazzale Europa, 22, 38123 Trento TN",
@@ -556,7 +556,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "48",
+			"id": 49,
 			"name": "URBAN R-EVOLUTION PUB",
 			"city": "Bergamo",
 			"address": "Via Enrico Fermi, 27, 24035 Curno BG",
@@ -568,7 +568,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "49",
+			"id": 50,
 			"name": "Bayern Drehspieß",
 			"city": "München",
 			"address": "Tal 14, 80331 München, Germania",
@@ -580,7 +580,7 @@
 			"price": "€"
 		},
 		{
-			"id": "50",
+			"id": 51,
 			"name": "Riegele WirtsHaus",
 			"city": "Augsburg",
 			"address": "Frölichstraße 26, 86150 Augsburg, Germania",
@@ -592,7 +592,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "51",
+			"id": 52,
 			"name": "QMUH Ulm",
 			"city": "Ulm",
 			"address": "Lautengasse 4, 89073 Ulm, Germania",
@@ -604,7 +604,7 @@
 			"price": "€€€€"
 		},
 		{
-			"id": "52",
+			"id": 53,
 			"name": "K-Kaiseki Sushi Restaurant",
 			"city": "Milano",
 			"address": "Via Paolo Sarpi, 5, 20154 Milano MI",
@@ -616,7 +616,7 @@
 			"price": "€€€€€"
 		},
 		{
-			"id": "53",
+			"id": 54,
 			"name": "Fradiavolo Pizzeria",
 			"city": "Bologna",
 			"address": "Via Santo Stefano, 1/B, 40125 Bologna BO",
@@ -628,7 +628,7 @@
 			"price": "€€€"
 		},
 		{
-			"id": "54",
+			"id": 55,
 			"name": "Doppio Malto",
 			"city": "Trento",
 			"address": "Via del Brennero, 148, 38121 Trento TN",
@@ -640,7 +640,7 @@
 			"price": "€€€€"
 		},
 		{
-			"id": "55",
+			"id": 56,
 			"name": "Pizza e Pizza",
 			"city": "Trento",
 			"address": "Via S. Bernardino, 24, 38122 Trento TN",
@@ -652,7 +652,7 @@
 			"price": "€€"
 		},
 		{
-			"id": "56",
+			"id": 57,
 			"name": "Orostube",
 			"city": "Trento",
 			"address": "Via Sommarive, 10, 38123 Povo TN",
@@ -664,7 +664,7 @@
 			"price": "€€"
 		},
 		{
-			"id": "57",
+			"id": 58,
 			"name": "NemBeer Pub",
 			"city": "Nembro",
 			"address": "Via Case Sparse Europa, 15, 24027 Nembro BG",
@@ -677,7 +677,7 @@
 			"menu": "https://www.leggimenu.it/menu/nembeerpub"
 		},
 		{
-			"id": "58",
+			"id": 59,
 			"name": "Nagoya X Sushi",
 			"city": "Curno",
 			"address": "Via Enrico Fermi, 46, 24035 Curno BG",
@@ -689,7 +689,7 @@
 			"price": "€€€€"
 		},
 		{
-			"id": "59",
+			"id": 60,
 			"name": "GiustoCosì",
 			"city": "Treviglio",
 			"address": "Via Roma, 10, 24047 Treviglio BG",
@@ -702,7 +702,7 @@
 			"menu": "https://beacons.ai/giustocosi"
 		},
 		{
-			"id": "60",
+			"id": 61,
 			"name": "La Talpa",
 			"city": "Pergine",
 			"address": "Ponte regio località Fratte 29, 38057 Pergine Valsugana TN",
@@ -715,7 +715,7 @@
 			"menu": "https://latalpapizzeria.it/wp-content/uploads/2025/02/Menu_Pergine.pdf"
 		},
 		{
-			"id": "61",
+			"id": 62,
 			"name": "La Talpa",
 			"city": "Trento",
 			"address": "Corso del Lavoro e della Scienza, 6/8, 38122 Trento TN",
@@ -728,7 +728,7 @@
 			"menu": "https://pizzerialatalpa.it/wp-content/uploads/2025/01/00_MENU_LA-TALPA_ESECUTIVO-4_removed.pdf"
 		},
 		{
-			"id": "61",
+			"id": 63,
 			"name": "La Talpa",
 			"city": "Miola di Piné",
 			"address": "Via della Crós, 7, 38042 Baselga di Piné TN",
@@ -741,7 +741,7 @@
 			"menu": "https://pizzerialatalpa.it/wp-content/uploads/2024/09/Talpa_Menu_Aprile2023.pdf"
 		},
 		{
-			"id": "63",
+			"id": 64,
 			"name": "Fabbrica In Pedavena",
 			"city": "Treviglio",
 			"address": "Via Rossaro, 28, 24047 Treviglio BG",
@@ -754,7 +754,7 @@
 			"menu": "https://www.fabbricainpedavenatreviglio.it/#menu"
 		},
 		{
-			"id": "64",
+			"id": 65,
 			"name": "Villa Madruzzo",
 			"city": "Cognola",
 			"address": "Via Ponte Alto, 28, 38121 Cognola TN",
@@ -767,7 +767,7 @@
 			"menu": "https://www.villamadruzzo.com/il-menu-del-ristorante/"
 		},
 		{
-			"id": "65",
+			"id": 66,
 			"name": "Gasthof Huber",
 			"city": "Gais",
 			"address": "Mühlbach 20, 39030 Gais BZ",
@@ -780,7 +780,7 @@
 			"menu": ""
 		},
 		{
-			"id": "67",
+			"id": 67,
 			"name": "Caprizza",
 			"city": "Trento",
 			"address": "Via Roma, 50, 38122 Trento TN",
@@ -793,7 +793,7 @@
 			"menu": "https://www.caprizza.it/qrmenu/Caprizza_TN_06_2025_IT.pdf"
 		},
 		{
-			"id": "68",
+			"id": 68,
 			"name": "Tàstiko",
 			"city": "Trento",
 			"address": "Piazza Santa Maria Maggiore, 32, 38122 Trento TN",
@@ -806,7 +806,7 @@
 			"menu": "https://www.tastiko.it/wp-content/uploads/2020/02/Tastiko-men%C3%B9.pdf"
 		},
 		{
-			"id": "69",
+			"id": 69,
 			"name": "Poke Go",
 			"city": "Trento",
 			"address": "Via S. Vigilio, 15, 38122 Trento TN",
@@ -819,7 +819,7 @@
 			"menu": "https://pokegotrento.eatbu.com/"
 		},
 		{
-			"id": "70",
+			"id": 70,
 			"name": "Perbene - Pizza o quasi",
 			"city": "Trento",
 			"address": "Via Oriola, 29, 38122 Trento TN",
