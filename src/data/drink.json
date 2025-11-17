@@ -264,6 +264,19 @@
 			"notes": "Cocktails molto buoni",
 			"price": "€€",
 			"menu": ""
+		},
+		{
+			"id": "24",
+			"name": "Apuleio Riverside",
+			"city": "Trento",
+			"address": "Lungadige Marco Apuleio, 58, 38122 Trento TN",
+			"lat": "46.0720501",
+			"lng": "11.1151489",
+			"typology": ["Aperitivi", "Pasticcieria", "Gelato"],
+			"phone": "",
+			"notes": "",
+			"price": "€",
+			"menu": ""
 		}
 	]
 }

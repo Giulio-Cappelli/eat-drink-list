@@ -521,15 +521,15 @@
 		},
 		{
 			"id": 46,
-			"name": "Oishy Ramen&sushi",
+			"name": "MIC Ramen Trento",
 			"city": "Trento",
 			"address": "Via Antonio Rosmini, 18, 38122 Trento TN",
 			"lat": "46.0679096",
 			"lng": "11.1186296",
-			"typology": ["Cinese", "Ramen"],
-			"phone": "331-8923388",
-			"notes": "CHIUSO",
-			"price": "€€"
+			"typology": ["⭐️", "Cinese", "Ramen"],
+			"phone": "391-3620677",
+			"notes": "Ramen, Ravioli",
+			"price": "€€€"
 		},
 		{
 			"id": 47,
@@ -830,6 +830,32 @@
 			"notes": "",
 			"price": "€€€",
 			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu"
+		},
+		{
+			"id": "71",
+			"name": "Trattoria Le Maschere",
+			"city": "Genova",
+			"address": "Via al Ponte Calvi, 2, 16124 Genova GE",
+			"lat": "44.4116676",
+			"lng": "8.9282134",
+			"typology": ["⭐️", "Ristorante", "Pesce"],
+			"phone": "010-2465503",
+			"notes": "",
+			"price": "€€€",
+			"menu": "https://www.lemascheretrattoria.it/"
+		},
+		{
+			"id": "72",
+			"name": "Ristorante Pizzeria Trittico",
+			"city": "Trento",
+			"address": "Piazza del Tridente, 19, 38121 Trento TN",
+			"lat": "46.0864895",
+			"lng": "11.1198778",
+			"typology": ["Pizzeria", "Ristorante"],
+			"phone": "",
+			"notes": "",
+			"price": "€€€€",
+			"menu": ""
 		}
 	]
 }
