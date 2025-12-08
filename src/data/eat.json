@@ -856,6 +856,19 @@
 			"notes": "",
 			"price": "€€€€",
 			"menu": ""
+		},
+		{
+			"id": "73",
+			"name": "Duà Pizza & Drink",
+			"city": "Trento",
+			"address": "Via XXIV Maggio, 2/1, 38122 Trento TN",
+			"lat": "46.0638082",
+			"lng": "11.1217157",
+			"typology": ["Pizzeria"],
+			"phone": "0461-425895",
+			"notes": "Pizze classiche a prezzo",
+			"price": "€€€",
+			"menu": ""
 		}
 	]
 }
