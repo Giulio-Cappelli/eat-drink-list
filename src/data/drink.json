@@ -133,7 +133,7 @@
 			"notes": "Pelo costoso"
 		},
 		{
-			"id": "13",
+			"id": 13,
 			"name": "Starbucks",
 			"city": "Verona",
 			"address": "Galleria Pellicciai, 2, 37121 Verona VR, Italia",
@@ -144,7 +144,7 @@
 			"notes": ""
 		},
 		{
-			"id": "14",
+			"id": 14,
 			"name": "Starbucks",
 			"city": "Innsbruck",
 			"address": "Herzog-Friedrich-Straße 24, 6020 Innsbruck",
@@ -155,7 +155,7 @@
 			"notes": ""
 		},
 		{
-			"id": "15",
+			"id": 15,
 			"name": "Dunkin' Donuts",
 			"city": "Innsbruck",
 			"address": "Maria-Theresien-Straße 38, 6020 Innsbruck, Austria",
@@ -166,7 +166,7 @@
 			"notes": ""
 		},
 		{
-			"id": "16",
+			"id": 16,
 			"name": "Mr. Box Tea",
 			"city": "Innsbruck",
 			"address": "Innrain 19, 6020 Innsbruck, Austria",
@@ -177,7 +177,7 @@
 			"notes": ""
 		},
 		{
-			"id": "17",
+			"id": 17,
 			"name": "Bici Grill",
 			"city": "Trento",
 			"address": "Via Lidorno, 2, 38122 Trento TN",
@@ -189,7 +189,7 @@
 			"price": ""
 		},
 		{
-			"id": "18",
+			"id": 18,
 			"name": "NemBeer Pub",
 			"city": "Nembro",
 			"address": "Via Case Sparse Europa, 15, 24027 Nembro BG",
@@ -201,7 +201,7 @@
 			"price": "€"
 		},
 		{
-			"id": "19",
+			"id": 19,
 			"name": "Gelateria Artigianale di Nembro",
 			"city": "Nembro",
 			"address": "Via Roma, 22, 24027 Nembro BG",
@@ -214,7 +214,7 @@
 			"menu": ""
 		},
 		{
-			"id": "20",
+			"id": 20,
 			"name": "Pasticceria Cara Siria",
 			"city": "Trento",
 			"address": "Via Torre d'Augusto, 21, 38122 Trento TN",
@@ -227,7 +227,7 @@
 			"menu": "http://www.carasiria.it/"
 		},
 		{
-			"id": "21",
+			"id": 21,
 			"name": "Bar Duomo Bistrot",
 			"city": "Trento",
 			"address": "Via Giuseppe Verdi, 40, 38122 Trento TN",
@@ -240,7 +240,7 @@
 			"menu": "https://barduomobistrot.qromo.it/"
 		},
 		{
-			"id": "22",
+			"id": 22,
 			"name": "Il Monello",
 			"city": "Trento",
 			"address": "Via Giuseppe Mazzini, 11, 38122 Trento TN",
@@ -253,7 +253,7 @@
 			"menu": ""
 		},
 		{
-			"id": "23",
+			"id": 23,
 			"name": "dasQ",
 			"city": "Trento",
 			"address": "Via Vittorio Veneto, 79, 38122 Trento TN",
@@ -266,7 +266,7 @@
 			"menu": ""
 		},
 		{
-			"id": "24",
+			"id": 24,
 			"name": "Apuleio Riverside",
 			"city": "Trento",
 			"address": "Lungadige Marco Apuleio, 58, 38122 Trento TN",
@@ -277,6 +277,31 @@
 			"notes": "",
 			"price": "€",
 			"menu": ""
+		},
+		{
+			"id": 25,
+			"name": "L'Archivio del Monello",
+			"city": "Trento",
+			"address": "Via Carlo Dordi, 21, 38122 Trento TN",
+			"lat": "46.0673304",
+			"lng": "11.1229589",
+			"typology": ["⭐️", "Aperitivi", "Cocktails"],
+			"phone": "346-5869057",
+			"notes": "",
+			"price": "€€",
+			"menu": ""
+		},
+		{
+			"id": 26,
+			"name": "URBAN R-EVOLUTION PUB",
+			"city": "Curno",
+			"address": "Via Enrico Fermi, 27, 24035 Curno BG",
+			"lat": "45.6872220",
+			"lng": "9.6220550",
+			"typology": ["Birra", "Cocktails"],
+			"phone": "",
+			"notes": "Pub",
+			"price": "€€"
 		}
 	]
 }

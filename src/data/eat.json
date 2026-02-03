@@ -190,13 +190,14 @@
 			"id": 18,
 			"name": "La Piadineria",
 			"city": "Trento",
-			"address": "Viale della Costituzione, 5, 38122 Trento TN",
-			"lat": "46.061801",
-			"lng": "11.11456",
+			"address": "Viale della Costituzione, 5 CC, 38122 Trento TN",
+			"lat": "46.0618009",
+			"lng": "11.1145595",
 			"typology": ["Piadine"],
 			"phone": "",
 			"notes": "",
-			"price": "€"
+			"price": "€",
+			"menu": "https://lapiadineria.com/menu-piadine"
 		},
 		{
 			"id": 19,
@@ -558,7 +559,7 @@
 		{
 			"id": 49,
 			"name": "URBAN R-EVOLUTION PUB",
-			"city": "Bergamo",
+			"city": "Curno",
 			"address": "Via Enrico Fermi, 27, 24035 Curno BG",
 			"lat": "45.6872220",
 			"lng": "9.6220550",
@@ -686,7 +687,7 @@
 			"typology": ["⭐️", "Sushi"],
 			"phone": "340-5527360",
 			"notes": "",
-			"price": "€€€€"
+			"price": "€€€€€"
 		},
 		{
 			"id": 60,
@@ -721,7 +722,7 @@
 			"address": "Corso del Lavoro e della Scienza, 6/8, 38122 Trento TN",
 			"lat": "46.0622550",
 			"lng": "11.1147785",
-			"typology": ["Pizzeria"],
+			"typology": ["⭐️", "Pizzeria"],
 			"phone": "351-3455834",
 			"notes": "Molto buona la 'Tonno e Cipolle'",
 			"price": "€€€€",
@@ -760,7 +761,7 @@
 			"address": "Via Ponte Alto, 28, 38121 Cognola TN",
 			"lat": "46.0727018",
 			"lng": "11.1495730",
-			"typology": ["Ristorante"],
+			"typology": ["⭐️", "Ristorante"],
 			"phone": "0461-986220",
 			"notes": "",
 			"price": "€€€€€€",
@@ -832,7 +833,7 @@
 			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu"
 		},
 		{
-			"id": "71",
+			"id": 71,
 			"name": "Trattoria Le Maschere",
 			"city": "Genova",
 			"address": "Via al Ponte Calvi, 2, 16124 Genova GE",
@@ -845,7 +846,7 @@
 			"menu": "https://www.lemascheretrattoria.it/"
 		},
 		{
-			"id": "72",
+			"id": 72,
 			"name": "Ristorante Pizzeria Trittico",
 			"city": "Trento",
 			"address": "Piazza del Tridente, 19, 38121 Trento TN",
@@ -858,7 +859,7 @@
 			"menu": ""
 		},
 		{
-			"id": "73",
+			"id": 73,
 			"name": "Duà Pizza & Drink",
 			"city": "Trento",
 			"address": "Via XXIV Maggio, 2/1, 38122 Trento TN",
@@ -869,6 +870,71 @@
 			"notes": "Pizze classiche a prezzo",
 			"price": "€€€",
 			"menu": ""
+		},
+		{
+			"id": 74,
+			"name": "Maninpasta",
+			"city": "Nembro",
+			"address": "Via Roma, 6, 24027 Nembro BG",
+			"lat": "45.7443806",
+			"lng": "9.7610280",
+			"typology": ["Pizzeria"],
+			"phone": "035-521920",
+			"notes": "Pizza d'asporto",
+			"price": "€€",
+			"menu": "https://pizzeriamaninpastanembro.it/"
+		},
+		{
+			"id": 75,
+			"name": "La Prosciutteria",
+			"city": "Trento",
+			"address": "Piazza Adamo d'Arogno, 1, 38122 Trento TN",
+			"lat": "46.0667082",
+			"lng": "11.1220932",
+			"typology": ["Panini"],
+			"phone": "0461-1783701",
+			"notes": "Schiacciate e Taglieri",
+			"price": "€€€",
+			"menu": "https://www.laprosciutteria.com/wp-content/uploads/2025/11/Menu-Completo-La-Prosciutteria-Trento-ita.pdf"
+		},
+		{
+			"id": 76,
+			"name": "La Piadineria",
+			"city": "Trento",
+			"address": "Piazza del Duomo, 22, 38122 Trento TN",
+			"lat": "46.0670381",
+			"lng": "11.1209781",
+			"typology": ["Piadine"],
+			"phone": "",
+			"notes": "",
+			"price": "€",
+			"menu": "https://lapiadineria.com/menu-piadine"
+		},
+		{
+			"id": 77,
+			"name": "La Piadineria",
+			"city": "Trento",
+			"address": "Via del Brennero, 190, 38122 Trento TN",
+			"lat": "46.0827684",
+			"lng": "11.1207559",
+			"typology": ["Piadine"],
+			"phone": "",
+			"notes": "",
+			"price": "€",
+			"menu": "https://lapiadineria.com/menu-piadine"
+		},
+		{
+			"id": 78,
+			"name": "Mood Sushi",
+			"city": "Curno",
+			"address": "VVia Bergamo, 27, 24035 Curno BG",
+			"lat": "45.6929509",
+			"lng": "9.6242260",
+			"typology": ["⭐️", "Sushi"],
+			"phone": "035-668785",
+			"notes": "",
+			"price": "€€€€€",
+			"menu": "https://sushimood.it/curno/"
 		}
 	]
 }
