@@ -20,6 +20,8 @@ import MapButton from "../buttons/MapButton";
 import MapButtonAlt from "../buttons/MapButtonAlt";
 import MenuButtonAlt from "../buttons/MenuButtonAlt";
 
+import prices from "../../data/prices.json";
+
 const getTypology = (types: string[], color: string) => {
 	const badges = types.map((type: string) => (
 		<Grid.Col span={type === "⭐️" ? 1 : "auto"} key={type}>
@@ -37,8 +39,9 @@ const getTypology = (types: string[], color: string) => {
 };
 
 const getPrices = (price: string) => {
-	const prices: Price[] = require("../../data/prices.json");
-	const currentPrice = prices.find((item) => item.symbol === price);
+	const currentPrice = (prices as Price[]).find(
+		(item) => item.symbol === price,
+	);
 
 	if (currentPrice) {
 		return (
@@ -109,7 +112,7 @@ const TableSort2 = (props: { data: Places }) => {
 				place.name.toLowerCase().includes(query) ||
 				place.city.toLowerCase().includes(query) ||
 				place.typology.some((typology) =>
-					typology.toLowerCase().includes(query)
+					typology.toLowerCase().includes(query),
 				)
 			);
 		});
