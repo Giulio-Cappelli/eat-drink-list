@@ -302,6 +302,19 @@
 			"phone": "",
 			"notes": "Pub",
 			"price": "€€"
-		}
+		},
+		{
+			"id": 27,
+			"name": "Perbene - Burger o quasi",
+			"city": "Trento",
+			"address": "Via Giovanni Prati, 4-6, 38122 Trento TN",
+			"lat": "46.0658788",
+			"lng": "11.1195706",
+			"typology": ["Cocktails"],
+			"phone": "375-7880805",
+			"notes": "",
+			"price": "€€",
+			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
+		},
 	]
 }
