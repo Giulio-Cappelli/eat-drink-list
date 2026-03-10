@@ -927,7 +927,7 @@
 			"id": 78,
 			"name": "Mood Sushi",
 			"city": "Curno",
-			"address": "VVia Bergamo, 27, 24035 Curno BG",
+			"address": "Via Bergamo, 27, 24035 Curno BG",
 			"lat": "45.6929509",
 			"lng": "9.6242260",
 			"typology": ["⭐️", "Sushi"],
@@ -935,6 +935,19 @@
 			"notes": "",
 			"price": "€€€€€",
 			"menu": "https://sushimood.it/curno/"
+		},
+		{
+			"id": 79,
+			"name": "Hotel Everest",
+			"city": "Trento",
+			"address": "Corso degli Alpini, 14, 38121 Trento TN",
+			"lat": "46.0783581",
+			"lng": "11.1185417",
+			"typology": ["Pizzeria", "Ristorante"],
+			"phone": "0461-825300",
+			"notes": "Anche Baccalà",
+			"price": "€€€€",
+			"menu": "https://www.hoteleverest.it/wp-content/uploads/2025/11/MENU-EVEREST-2026-ITA.pdf"
 		}
 	]
 }
