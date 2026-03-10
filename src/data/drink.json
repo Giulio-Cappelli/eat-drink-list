@@ -316,5 +316,18 @@
 			"price": "€€",
 			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
 		},
+		{
+			"id": 28,
+			"name": "Gelateria La Romana dal 1947",
+			"city": "Trento",
+			"address": "Via Antonio Rosmini, 5, 38122 Trento TN",
+			"lat": "46.0682052",
+			"lng": "11.1188451",
+			"typology": ["⭐️", "Gelato"],
+			"phone": "",
+			"notes": "",
+			"price": "€",
+			"menu": ""
+		}
 	]
 }
