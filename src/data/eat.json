@@ -142,7 +142,7 @@
 		{
 			"id": 14,
 			"name": "La Roccia",
-			"city": "Trento",
+			"city": "Mattarello",
 			"address": "Localita, Via Pianizza, 4, 38123 Villazzano TN",
 			"lat": "46.017006",
 			"lng": "11.144694",
@@ -547,7 +547,7 @@
 		{
 			"id": 48,
 			"name": "La Terrazza",
-			"city": "Trento",
+			"city": "Madonna Bianca",
 			"address": "Piazzale Europa, 22, 38123 Trento TN",
 			"lat": "46.0406051",
 			"lng": "11.1329032",
@@ -655,7 +655,7 @@
 		{
 			"id": 57,
 			"name": "Orostube",
-			"city": "Trento",
+			"city": "Povo",
 			"address": "Via Sommarive, 10, 38123 Povo TN",
 			"lat": "46.0647594",
 			"lng": "11.1504525",
@@ -948,6 +948,32 @@
 			"notes": "Anche Baccalà",
 			"price": "€€€€",
 			"menu": "https://www.hoteleverest.it/wp-content/uploads/2025/11/MENU-EVEREST-2026-ITA.pdf"
+		},
+		{
+			"id": 80,
+			"name": "MERO PIZZA KEBAB 🍕",
+			"city": "Mattarello",
+			"address": "Via Guido Poli, 14, 38123 Mattarello TN",
+			"lat": "46.0055777",
+			"lng": "11.1292252",
+			"typology": ["Kebab"],
+			"phone": "346-5606024",
+			"notes": "",
+			"price": "€",
+			"menu": "https://www.facebook.com/photo/?fbid=781389337012795&set=pb.100054252080623.-2207520000"
+		},
+		{
+			"id": 81,
+			"name": "Trattoria dell'Arlecchino",
+			"city": "Bergamo",
+			"address": "Via Roncaglia Entro, 72, 24015 San Giovanni Bianco BG",
+			"lat": "45.8822774",
+			"lng": "9.6339982",
+			"typology": ["Ristorante", "Pizzeria"],
+			"phone": "0345-41198",
+			"notes": "Prezzi molto bassi",
+			"price": "€€",
+			"menu": "https://www.trattoriadellarlecchino.it/Listino-prezzi-Trattoria-dell-arlecchino-Arlecchino-San-Giovanni-Bianco-Pizzeria-Valbrembana-Valtaleggio-#PrezziCucina"
 		}
 	]
 }
