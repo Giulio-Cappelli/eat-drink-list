@@ -10,7 +10,6 @@ import {
 	useMantineTheme,
 } from "@mantine/core";
 import { openModal } from "@mantine/modals";
-import { sortBy } from "lodash";
 import { DataTable, DataTableSortStatus } from "mantine-datatable";
 import { useEffect, useState } from "react";
 import { Place, Places, Price } from "../../types/types";
@@ -71,6 +70,9 @@ const handleRowClick = (data: Place, theme: any) => {
 					value={data.typology}
 					readOnly
 					radius="md"
+					styles={{
+						value: { paddingLeft: "0.75rem" },
+					}}
 				/>
 				<TextInput label="Telefono" value={data.phone} readOnly radius="md" />
 				<TextInput label="Prezzo" value={data.price} readOnly radius="md" />
@@ -123,6 +125,17 @@ const TableSort2 = (props: { data: Places }) => {
 			const aValue = a[columnAccessor];
 			const bValue = b[columnAccessor];
 
+			// ------ Sort price range
+			if (columnAccessor === "price") {
+				const lengthA = String(aValue || "").length;
+				const lengthB = String(bValue || "").length;
+
+				return sortStatus.direction === "asc"
+					? lengthA - lengthB
+					: lengthB - lengthA;
+			}
+			// ------
+
 			if (aValue < bValue) return sortStatus.direction === "asc" ? -1 : 1;
 			if (aValue > bValue) return sortStatus.direction === "asc" ? 1 : -1;
 			return 0;
@@ -165,18 +178,30 @@ const TableSort2 = (props: { data: Places }) => {
 					{
 						accessor: "name",
 						title: "Nome",
+						width: 300,
 						sortable: true,
 					},
-					{ accessor: "city", title: "Città", sortable: true },
+					{
+						accessor: "city",
+						title: "Città",
+						width: 200,
+						sortable: true,
+					},
 					{
 						accessor: "typology",
 						title: "Tipologia",
+						width: 300,
 						render: ({ typology }) => getTypology(typology, theme.primaryColor),
 					},
-					{ accessor: "phone", title: "Telefono" },
+					{
+						accessor: "phone",
+						title: "Telefono",
+						width: 200,
+					},
 					{
 						accessor: "price",
 						title: "Prezzo",
+						width: 150,
 						sortable: true,
 						render: ({ price }) => getPrices(price),
 					},

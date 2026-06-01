@@ -13,7 +13,7 @@ export interface Place {
 }
 
 export interface PlaceS {
-  id: string;
+  id: number;
   name: string;
   city: string;
   address: string;

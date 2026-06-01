@@ -468,7 +468,7 @@
 			"lng": "11.1195706",
 			"typology": ["Ristorante", "Panini"],
 			"phone": "375-7880805",
-			"notes": "Hamburger",
+			"notes": "Smashburger",
 			"price": "€€€",
 			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
 		},
@@ -781,19 +781,6 @@
 			"menu": ""
 		},
 		{
-			"id": 67,
-			"name": "Caprizza",
-			"city": "Trento",
-			"address": "Via Roma, 50, 38122 Trento TN",
-			"lat": "46.0694633",
-			"lng": "11.1201206",
-			"typology": ["Pizzeria"],
-			"phone": "0461-521781",
-			"notes": "Nulla di particolare",
-			"price": "€€€€",
-			"menu": "https://www.caprizza.it/qrmenu/Caprizza_TN_06_2025_IT.pdf"
-		},
-		{
 			"id": 68,
 			"name": "Tàstiko",
 			"city": "Trento",
@@ -930,7 +917,7 @@
 			"address": "Via Bergamo, 27, 24035 Curno BG",
 			"lat": "45.6929509",
 			"lng": "9.6242260",
-			"typology": ["⭐️", "Sushi"],
+			"typology": ["Sushi"],
 			"phone": "035-668785",
 			"notes": "",
 			"price": "€€€€€",
@@ -974,6 +961,58 @@
 			"notes": "Prezzi molto bassi",
 			"price": "€€",
 			"menu": "https://www.trattoriadellarlecchino.it/Listino-prezzi-Trattoria-dell-arlecchino-Arlecchino-San-Giovanni-Bianco-Pizzeria-Valbrembana-Valtaleggio-#PrezziCucina"
+		},
+		{
+			"id": 82,
+			"name": "La Pinta - Pub Pizzeria",
+			"city": "Mattarello",
+			"address": "V. Nazionale, 41, 38123 Mattarello TN",
+			"lat": "46.0062768",
+			"lng": "11.1271376",
+			"typology": ["Pizzeria"],
+			"phone": "0461-1823936",
+			"notes": "",
+			"price": "€€",
+			"menu": "https://www.canva.com/design/DAGkEdxjmlo/V8SplgqX0O5iTB9lYY9_sw/view?utm_content=DAGkEdxjmlo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41dd73c03c"
+		},
+		{
+			"id": 83,
+			"name": "Sushi Land",
+			"city": "Trento",
+			"address": "Via del Brennero, 111, 38121 Trento TN",
+			"lat": "46.0858544",
+			"lng": "11.1170965",
+			"typology": ["Sushi"],
+			"phone": "0461-1580027",
+			"notes": "",
+			"price": "€€€€€",
+			"menu": "http://www.sushiland.it/"
+		},
+		{
+			"id": 84,
+			"name": "Twist Burger - Burger n'more",
+			"city": "Trento",
+			"address": "Via Monsignor Celestino Endrici, 7, 38122 Trento TN",
+			"lat": "46.0605110",
+			"lng": "11.1218230",
+			"typology": ["Ristorante", "Panini"],
+			"phone": "328-2244771",
+			"notes": "Smashburger",
+			"price": "€€€",
+			"menu": "https://twistburger.it/"
+		},
+		{
+			"id": 85,
+			"name": "Twist Pizza - Pizza n'more",
+			"city": "Trento",
+			"address": "Via Giacomo Matteotti, 36, 38122 Trento TN",
+			"lat": "46.0561137",
+			"lng": "11.1209065",
+			"typology": ["Pizzeria"],
+			"phone": "348-9333639",
+			"notes": "Anche pizza alla pala",
+			"price": "€€€",
+			"menu": "https://twistpizza.it//"
 		}
 	]
 }

@@ -119,7 +119,8 @@
 			"lng": "11.1207027",
 			"typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
 			"phone": "",
-			"notes": "Pelo costoso"
+			"notes": "",
+			"price": "€€"
 		},
 		{
 			"id": 12,
@@ -130,7 +131,8 @@
 			"lng": "11.1150921",
 			"typology": ["Caffetteria", "Aperitivi", "Bubble Tea"],
 			"phone": "",
-			"notes": "Pelo costoso"
+			"notes": "",
+			"price": "€€"
 		},
 		{
 			"id": 13,
@@ -328,6 +330,32 @@
 			"notes": "",
 			"price": "€",
 			"menu": ""
+		},
+		{
+			"id": 29,
+			"name": "Perbene - Pizza o quasi",
+			"city": "Trento",
+			"address": "Via Oriola, 29, 38122 Trento TN",
+			"lat": "46.0682596",
+			"lng": "11.1232081",
+			"typology": ["Cocktails"],
+			"phone": "375-8886928",
+			"notes": "",
+			"price": "€€",
+			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu"
+		},
+		{
+			"id": 30,
+			"name": "La Pinta - Pub Pizzeria",
+			"city": "Mattarello",
+			"address": "V. Nazionale, 41, 38123 Mattarello TN",
+			"lat": "46.0062768",
+			"lng": "11.1271376",
+			"typology": ["Birra"],
+			"phone": "0461-1823936",
+			"notes": "Guinness",
+			"price": "€",
+			"menu": "https://www.canva.com/design/DAGkEdxjmlo/V8SplgqX0O5iTB9lYY9_sw/view?utm_content=DAGkEdxjmlo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41dd73c03c"
 		}
 	]
 }
