@@ -1013,6 +1013,19 @@
 			"notes": "Anche pizza alla pala",
 			"price": "€€€",
 			"menu": "https://twistpizza.it//"
+		},
+		{
+			"id": 86,
+			"name": "La Torretta Pizza Break",
+			"city": "Rovereto",
+			"address": "Corso Antonio Rosmini, 9, 38068 Rovereto TN",
+			"lat": "45.8909891",
+			"lng": "11.0419793",
+			"typology": ["Pizzeria"],
+			"phone": "345-0119607",
+			"notes": "Pizza in teglia e frittini",
+			"price": "€",
+			"menu": ""
 		}
 	]
 }
