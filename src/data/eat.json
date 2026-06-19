@@ -1026,6 +1026,19 @@
 			"notes": "Pizza in teglia e frittini",
 			"price": "€",
 			"menu": ""
+		},
+		{
+			"id": 87,
+			"name": "Aladin Fast Food",
+			"city": "Trento",
+			"address": "Passaggio Benvenuto Disertori, 14, 38121 Trento TN",
+			"lat": "46.0900220",
+			"lng": "11.1152455",
+			"typology": ["Kebab"],
+			"phone": "391-3072518",
+			"notes": "Kebab e Tacos",
+			"price": "€€",
+			"menu": ""
 		}
 	]
 }
