@@ -356,6 +356,19 @@
 			"notes": "Guinness",
 			"price": "€",
 			"menu": "https://www.canva.com/design/DAGkEdxjmlo/V8SplgqX0O5iTB9lYY9_sw/view?utm_content=DAGkEdxjmlo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h41dd73c03c"
+		},
+		{
+			"id": 31,
+			"name": "Wake Bar - Lido di Terlago",
+			"city": "Terlago",
+			"address": "Via al Lago, 1, 38070 Terlago TN",
+			"lat": "46.0989271",
+			"lng": "11.0535315",
+			"typology": ["⭐️", "Birra", "Aperitivi"],
+			"phone": "",
+			"notes": "",
+			"price": "€",
+			"menu": ""
 		}
 	]
 }
