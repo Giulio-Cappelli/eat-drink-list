@@ -468,9 +468,16 @@
 			"lng": "11.1195706",
 			"typology": ["Ristorante", "Panini"],
 			"phone": "375-7880805",
-			"notes": "Smashburger",
+			"notes": "Smashburger, Fuorimenu: Giugno 2026: Lobster Roll",
 			"price": "€€€",
-			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu"
+			"menu": "https://perbeneoquasi.it/perbene-burger-o-quasi/#menu",
+			"offmenu": [
+				{
+					"date": "06-2026",
+					"name": "Lobster Roll",
+					"price": "25€"
+				}
+			]
 		},
 		{
 			"id": 42,
@@ -817,7 +824,8 @@
 			"phone": "375-8886928",
 			"notes": "",
 			"price": "€€€€",
-			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu"
+			"menu": "https://perbeneoquasi.it/perbene-pizza-o-quasi/#menu",
+			"offmenu": []
 		},
 		{
 			"id": 71,
@@ -1024,7 +1032,7 @@
 			"typology": ["Pizzeria"],
 			"phone": "345-0119607",
 			"notes": "Pizza in teglia e frittini",
-			"price": "€",
+			"price": "€€",
 			"menu": ""
 		},
 		{
